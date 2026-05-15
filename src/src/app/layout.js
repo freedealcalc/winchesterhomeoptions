@@ -22,8 +22,15 @@ const dmMono = DM_Mono({
 })
 
 export const metadata = {
-  title: 'Winchester Home Options | Know Your Options Before You Sell',
-  description: 'Selling a home in Winchester, Frederick County, Clarke, or Warren County? Get honest options from a licensed Virginia agent with 20+ years in the Shenandoah Valley and access to thousands of cash buyers who buy homes in any condition. Free no-pressure consultation.',
+  metadataBase: new URL('https://www.woodbridgehomeoptions.com'),
+  title: 'Sell My House Fast in Woodbridge VA | Woodbridge Home Options',
+  description: 'Think selling fast means leaving money on the table? Think again. Dan White shows Woodbridge, VA sellers every path — and which one puts the most cash in your pocket. Free consultation.',
+  alternates: {
+    canonical: '/',
+  },
+  verification: {
+    google: 'Q4DSILfW14UkWwsPXSvAshC1QKcNlYntjxi3-NTlmTo',
+  },
 }
 
 export default function RootLayout({ children }) {

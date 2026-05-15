@@ -3,8 +3,8 @@
 import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+  'https://wnsrjggvmntdrtnvrpft.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Induc3JqZ2d2bW50ZHJ0bnZycGZ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY2MzA3ODAsImV4cCI6MjA5MjIwNjc4MH0.G1LUuZ8Evrk2iJPUYD7M3qAM8H1Mp6jw1jg38DwW0EE'
 )
 
 export default function HomePage() {
@@ -792,7 +792,7 @@ export default function HomePage() {
                   <span className="stat-label">Free Consult</span>
                 </div>
                 <div className="stat">
-                  <span className="stat-number">3</span>
+                  <span className="stat-number">5</span>
                   <span className="stat-label">Counties Served</span>
                 </div>
               </div>
@@ -930,7 +930,7 @@ export default function HomePage() {
               <div className="step-number">2</div>
               <div className="step-content">
                 <h3>We Walk the Property</h3>
-                <p>I come to you — anywhere from Winchester to Front Royal to Berryville. I&apos;ll walk through the property, assess its condition and value, and listen to understand your situation and timeline fully.</p>
+                <p>I come to you — anywhere from Winchester to Front Royal to Woodstock. I&apos;ll walk through the property, assess its condition and value, and listen to understand your situation and timeline fully.</p>
               </div>
             </div>
             <div className="step">
@@ -1054,8 +1054,8 @@ export default function HomePage() {
               <div className="trust-stat">
                 <div className="trust-stat-icon">📍</div>
                 <div>
-                  <div className="trust-stat-number">3 Counties</div>
-                  <div className="trust-stat-label">Frederick, Clarke &amp; Warren County</div>
+                  <div className="trust-stat-number">5 Counties</div>
+                  <div className="trust-stat-label">Winchester, Frederick, Clarke, Warren, Shenandoah</div>
                 </div>
               </div>
               <div className="trust-stat">
@@ -1107,32 +1107,29 @@ export default function HomePage() {
             <div>
               <div className="footer-heading">Quick Links</div>
               <ul className="footer-links">
-                <li><a href="/sell-my-house-fast-winchester-va">Sell in Winchester</a></li>
-                <li><a href="/sell-my-house-fast-front-royal-va">Sell in Front Royal</a></li>
-                <li><a href="/sell-my-house-fast-stephens-city-va">Sell in Stephens City</a></li>
-                <li><a href="/sell-house-foreclosure-winchester-va">Facing Foreclosure</a></li>
-                <li><a href="/sell-inherited-house-winchester-va">Inherited Property</a></li>
-                <li><a href="/sell-my-house-fast-frederick-county-va">Frederick County</a></li>
+                <li><a href="#how">How It Works</a></li>
+                <li><a href="#options">Your Options</a></li>
+                <li><a href="#situations">Situations We Help</a></li>
+                <li><a href="#contact">Free Consultation</a></li>
               </ul>
             </div>
             <div>
               <div className="footer-heading">Service Areas</div>
               <ul className="footer-links">
-                <li><a href="/sell-my-house-fast-winchester-va">Winchester City</a></li>
-                <li><a href="/sell-my-house-fast-frederick-county-va">Frederick County</a></li>
-                <li><a href="/sell-my-house-fast-clarke-county-va">Clarke County</a></li>
-                <li><a href="/sell-my-house-fast-warren-county-va">Warren County</a></li>
-                <li><a href="/sell-my-house-fast-front-royal-va">Front Royal</a></li>
-                <li><a href="/sell-my-house-fast-berryville-va">Berryville</a></li>
+                <li><a href="#">Winchester City</a></li>
+                <li><a href="#">Frederick County</a></li>
+                <li><a href="#">Clarke County</a></li>
+                <li><a href="#">Warren County</a></li>
+                <li><a href="#">Shenandoah County</a></li>
               </ul>
             </div>
           </div>
           <div className="footer-bottom">
             <div>© 2026 Winchester Home Options. All rights reserved.</div>
             <div className="footer-disclaimer">
-              Licensed Real Estate Agent · Pearson Smith Realty · Virginia
+              Licensed Real Estate Agent · Pearson Smith Realty · Virginia License #0225XXXXXX
               <br />
-              <a href="/privacy">Privacy Policy</a> · <a href="/terms">Terms of Service</a>
+              <a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a>
             </div>
           </div>
         </div>

@@ -3,8 +3,8 @@
 import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+  'https://wnsrjggvmntdrtnvrpft.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Induc3JqZ2d2bW50ZHJ0bnZycGZ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY2MzA3ODAsImV4cCI6MjA5MjIwNjc4MH0.G1LUuZ8Evrk2iJPUYD7M3qAM8H1Mp6jw1jg38DwW0EE'
 )
 
 export default function HomePage() {
@@ -18,12 +18,12 @@ export default function HomePage() {
     const data = {
       first_name: form.querySelector('input[placeholder="First"]').value,
       last_name: form.querySelector('input[placeholder="Last"]').value,
-      address: form.querySelector('input[placeholder="123 Main St, Winchester, VA"]').value,
+      address: form.querySelector('input[placeholder="123 Main St, Woodbridge, VA"]').value,
       situation: form.querySelectorAll('select')[0].value,
       timeline: form.querySelectorAll('select')[1].value,
       phone: form.querySelector('input[type="tel"]').value,
       email: form.querySelector('input[type="email"]').value,
-      source_site: 'winchesterhomeoptions',
+      source_site: 'woodbridgehomeoptions',
       source_page: 'homepage',
       status: 'new',
     }
@@ -53,9 +53,9 @@ export default function HomePage() {
           --navy: #1B2B4B;
           --navy-dark: #0f1c32;
           --navy-light: #243860;
-          --apple: #B83A3A;
-          --apple-light: #d24e4e;
-          --apple-pale: #f5dcdc;
+          --teal: #1F5D6C;
+          --teal-light: #2d7a8c;
+          --teal-pale: #d4e4e8;
           --cream: #F7F5F2;
           --white: #ffffff;
           --text: #1A1A1A;
@@ -97,7 +97,7 @@ export default function HomePage() {
           z-index: 100;
           background: rgba(27, 43, 75, 0.97);
           backdrop-filter: blur(12px);
-          border-bottom: 1px solid rgba(184, 58, 58, 0.2);
+          border-bottom: 1px solid rgba(31, 93, 108, 0.2);
         }
         .nav-inner {
           display: flex;
@@ -115,7 +115,7 @@ export default function HomePage() {
           color: var(--white);
           letter-spacing: -0.01em;
         }
-        .nav-logo span { color: var(--apple); }
+        .nav-logo span { color: var(--teal-light); }
         .nav-links {
           display: flex;
           align-items: center;
@@ -128,16 +128,16 @@ export default function HomePage() {
           font-size: 0.9rem;
           transition: color 0.2s;
         }
-        .nav-links a:hover { color: var(--apple-light); }
+        .nav-links a:hover { color: var(--teal-light); }
         .nav-cta {
-          background: var(--apple) !important;
+          background: var(--teal) !important;
           color: var(--white) !important;
           padding: 10px 22px;
           border-radius: 4px;
           font-weight: 600 !important;
           transition: background 0.2s !important;
         }
-        .nav-cta:hover { background: var(--apple-light) !important; }
+        .nav-cta:hover { background: var(--teal-light) !important; }
         .nav-phone {
           color: rgba(255,255,255,0.6);
           font-family: var(--font-dm-mono), monospace;
@@ -159,8 +159,8 @@ export default function HomePage() {
           position: absolute;
           inset: 0;
           background:
-            radial-gradient(ellipse 80% 60% at 70% 50%, rgba(184,58,58,0.08) 0%, transparent 60%),
-            radial-gradient(ellipse 50% 80% at 0% 100%, rgba(184,58,58,0.05) 0%, transparent 50%);
+            radial-gradient(ellipse 80% 60% at 70% 50%, rgba(31,93,108,0.12) 0%, transparent 60%),
+            radial-gradient(ellipse 50% 80% at 0% 100%, rgba(31,93,108,0.08) 0%, transparent 50%);
           pointer-events: none;
         }
         .hero::after {
@@ -183,9 +183,9 @@ export default function HomePage() {
           display: inline-flex;
           align-items: center;
           gap: 10px;
-          background: rgba(184,58,58,0.12);
-          border: 1px solid rgba(184,58,58,0.25);
-          color: var(--apple-light);
+          background: rgba(31,93,108,0.15);
+          border: 1px solid rgba(31,93,108,0.3);
+          color: var(--teal-light);
           font-family: var(--font-dm-mono), monospace;
           font-size: 0.75rem;
           letter-spacing: 0.1em;
@@ -198,20 +198,20 @@ export default function HomePage() {
           content: '';
           width: 6px;
           height: 6px;
-          background: var(--apple);
+          background: var(--teal-light);
           border-radius: 50%;
         }
         .hero h1 {
-          font-size: clamp(2.8rem, 5vw, 4.2rem);
+          font-size: clamp(2.4rem, 4.5vw, 3.8rem);
           font-weight: 900;
           color: var(--white);
           letter-spacing: -0.02em;
           margin-bottom: 8px;
-          line-height: 1.05;
+          line-height: 1.1;
         }
         .hero h1 em {
           font-style: italic;
-          color: var(--apple);
+          color: var(--teal-light);
         }
         .hero-subtitle {
           font-size: clamp(1.1rem, 2vw, 1.3rem);
@@ -238,7 +238,7 @@ export default function HomePage() {
           display: inline-flex;
           align-items: center;
           gap: 10px;
-          background: var(--apple);
+          background: var(--teal);
           color: var(--white);
           padding: 16px 32px;
           border-radius: 4px;
@@ -249,7 +249,7 @@ export default function HomePage() {
           cursor: pointer;
           border: none;
         }
-        .btn-primary:hover { background: var(--apple-light); transform: translateY(-1px); }
+        .btn-primary:hover { background: var(--teal-light); transform: translateY(-1px); }
         .btn-secondary {
           display: inline-flex;
           align-items: center;
@@ -281,7 +281,7 @@ export default function HomePage() {
           font-family: var(--font-playfair), serif;
           font-size: 2rem;
           font-weight: 700;
-          color: var(--apple);
+          color: var(--teal-light);
           line-height: 1;
         }
         .stat-label {
@@ -305,7 +305,7 @@ export default function HomePage() {
           position: absolute;
           top: 0; left: 0; right: 0;
           height: 4px;
-          background: linear-gradient(90deg, var(--apple), var(--apple-light));
+          background: linear-gradient(90deg, var(--teal), var(--teal-light));
           border-radius: 12px 12px 0 0;
         }
         .card-title {
@@ -345,8 +345,8 @@ export default function HomePage() {
           appearance: none;
         }
         .form-input:focus, .form-select:focus {
-          border-color: var(--apple);
-          box-shadow: 0 0 0 3px rgba(184,58,58,0.12);
+          border-color: var(--teal);
+          box-shadow: 0 0 0 3px rgba(31,93,108,0.15);
         }
         .form-row {
           display: grid;
@@ -381,10 +381,10 @@ export default function HomePage() {
           font-size: 0.85rem;
           color: var(--text-muted);
         }
-        .phone-alt a { color: var(--apple); font-family: var(--font-dm-mono), monospace; font-weight: 500; }
+        .phone-alt a { color: var(--teal); font-family: var(--font-dm-mono), monospace; font-weight: 500; }
 
         /* DIFF STRIP */
-        .diff-strip { background: var(--apple); padding: 20px 0; }
+        .diff-strip { background: var(--teal); padding: 20px 0; }
         .diff-strip-inner {
           display: flex;
           align-items: center;
@@ -410,7 +410,7 @@ export default function HomePage() {
           font-size: 0.75rem;
           letter-spacing: 0.12em;
           text-transform: uppercase;
-          color: var(--apple);
+          color: var(--teal);
           margin-bottom: 16px;
         }
         .section-title {
@@ -421,7 +421,7 @@ export default function HomePage() {
           margin-bottom: 20px;
           max-width: 600px;
         }
-        .section-title em { font-style: italic; color: var(--apple); }
+        .section-title em { font-style: italic; color: var(--teal); }
         .section-body {
           font-size: 1.1rem;
           color: var(--text-muted);
@@ -449,7 +449,7 @@ export default function HomePage() {
           position: absolute;
           bottom: 0; left: 0; right: 0;
           height: 3px;
-          background: var(--apple);
+          background: var(--teal);
           transform: scaleX(0);
           transition: transform 0.3s;
           transform-origin: left;
@@ -460,7 +460,7 @@ export default function HomePage() {
           font-family: var(--font-playfair), serif;
           font-size: 3.5rem;
           font-weight: 900;
-          color: var(--apple-pale);
+          color: var(--teal-pale);
           line-height: 1;
           margin-bottom: 16px;
         }
@@ -479,11 +479,11 @@ export default function HomePage() {
           position: absolute;
           top: -200px; right: -200px;
           width: 600px; height: 600px;
-          background: radial-gradient(circle, rgba(184,58,58,0.06) 0%, transparent 70%);
+          background: radial-gradient(circle, rgba(31,93,108,0.1) 0%, transparent 70%);
           pointer-events: none;
         }
         .how .section-title { color: var(--white); }
-        .how .section-eyebrow { color: var(--apple); }
+        .how .section-eyebrow { color: var(--teal-light); }
         .how .section-body { color: rgba(255,255,255,0.6); }
         .steps {
           display: grid;
@@ -495,8 +495,8 @@ export default function HomePage() {
         .step-number {
           flex-shrink: 0;
           width: 52px; height: 52px;
-          background: rgba(184,58,58,0.12);
-          border: 1px solid rgba(184,58,58,0.3);
+          background: rgba(31,93,108,0.15);
+          border: 1px solid rgba(31,93,108,0.35);
           border-radius: 50%;
           display: flex;
           align-items: center;
@@ -504,7 +504,7 @@ export default function HomePage() {
           font-family: var(--font-playfair), serif;
           font-size: 1.2rem;
           font-weight: 700;
-          color: var(--apple);
+          color: var(--teal-light);
         }
         .step-content h3 { font-size: 1.15rem; color: var(--white); margin-bottom: 10px; }
         .step-content p { font-size: 0.95rem; color: rgba(255,255,255,0.6); line-height: 1.7; }
@@ -537,14 +537,14 @@ export default function HomePage() {
         .option-icon {
           flex-shrink: 0;
           width: 56px; height: 56px;
-          background: var(--apple-pale);
+          background: var(--teal-pale);
           border-radius: 10px;
           display: flex;
           align-items: center;
           justify-content: center;
           font-size: 1.5rem;
         }
-        .option-card.featured .option-icon { background: rgba(184,58,58,0.15); }
+        .option-card.featured .option-icon { background: rgba(31,93,108,0.2); }
         .option-content h3 { font-size: 1.2rem; color: var(--navy); margin-bottom: 10px; }
         .option-card.featured .option-content h3 { color: var(--white); font-size: 1.4rem; }
         .option-content p { font-size: 0.95rem; color: var(--text-muted); line-height: 1.7; }
@@ -553,7 +553,7 @@ export default function HomePage() {
           display: inline-flex;
           align-items: center;
           gap: 6px;
-          background: var(--apple);
+          background: var(--teal);
           color: var(--white);
           font-family: var(--font-dm-mono), monospace;
           font-size: 0.7rem;
@@ -586,10 +586,10 @@ export default function HomePage() {
         }
         .situation-chip:hover { background: var(--navy); border-color: var(--navy); }
         .situation-chip:hover .situation-text { color: var(--white); }
-        .situation-chip:hover .situation-icon { background: rgba(184,58,58,0.2); }
+        .situation-chip:hover .situation-icon { background: rgba(31,93,108,0.25); }
         .situation-icon {
           width: 36px; height: 36px;
-          background: var(--apple-pale);
+          background: var(--teal-pale);
           border-radius: 8px;
           display: flex;
           align-items: center;
@@ -601,7 +601,7 @@ export default function HomePage() {
         .situation-text { font-size: 0.9rem; color: var(--text); font-weight: 600; transition: color 0.2s; }
 
         /* TRUST */
-        .trust { padding: 100px 0; background: var(--apple-pale); }
+        .trust { padding: 100px 0; background: var(--teal-pale); }
         .trust-inner {
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -620,7 +620,7 @@ export default function HomePage() {
         .trust-quote::before {
           content: '\\201C';
           font-size: 4rem;
-          color: var(--apple);
+          color: var(--teal);
           line-height: 0;
           vertical-align: -0.5em;
           margin-right: 4px;
@@ -632,7 +632,7 @@ export default function HomePage() {
           text-transform: uppercase;
           letter-spacing: 0.05em;
         }
-        .trust-stars { color: var(--apple); font-size: 1.1rem; margin-bottom: 8px; }
+        .trust-stars { color: var(--teal); font-size: 1.1rem; margin-bottom: 8px; }
         .trust-stats { display: flex; flex-direction: column; gap: 24px; }
         .trust-stat {
           background: var(--white);
@@ -674,15 +674,15 @@ export default function HomePage() {
           content: '';
           position: absolute;
           inset: 0;
-          background: radial-gradient(ellipse 60% 60% at 50% 50%, rgba(184,58,58,0.08) 0%, transparent 70%);
+          background: radial-gradient(ellipse 60% 60% at 50% 50%, rgba(31,93,108,0.12) 0%, transparent 70%);
           pointer-events: none;
         }
         .cta-section h2 { font-size: clamp(2rem, 4vw, 3rem); color: var(--white); margin-bottom: 20px; position: relative; }
-        .cta-section h2 em { font-style: italic; color: var(--apple); }
+        .cta-section h2 em { font-style: italic; color: var(--teal-light); }
         .cta-section p { font-size: 1.1rem; color: rgba(255,255,255,0.65); max-width: 520px; margin: 0 auto 40px; line-height: 1.8; }
         .cta-actions { display: flex; align-items: center; justify-content: center; gap: 24px; flex-wrap: wrap; position: relative; }
         .cta-phone { display: flex; align-items: center; gap: 10px; color: rgba(255,255,255,0.7); font-size: 1rem; }
-        .cta-phone a { color: var(--apple-light); font-family: var(--font-dm-mono), monospace; font-size: 1.1rem; }
+        .cta-phone a { color: var(--teal-light); font-family: var(--font-dm-mono), monospace; font-size: 1.1rem; }
 
         /* FOOTER */
         footer {
@@ -697,13 +697,13 @@ export default function HomePage() {
           margin-bottom: 40px;
         }
         .footer-brand { font-family: var(--font-playfair), serif; font-size: 1.2rem; font-weight: 700; color: var(--white); margin-bottom: 12px; }
-        .footer-brand span { color: var(--apple); }
+        .footer-brand span { color: var(--teal-light); }
         .footer-desc { font-size: 0.9rem; color: rgba(255,255,255,0.45); line-height: 1.7; margin-bottom: 20px; }
-        .footer-phone { font-family: var(--font-dm-mono), monospace; color: var(--apple); font-size: 1rem; }
+        .footer-phone { font-family: var(--font-dm-mono), monospace; color: var(--teal-light); font-size: 1rem; }
         .footer-heading { font-family: var(--font-dm-mono), monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.35); margin-bottom: 16px; }
         .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
         .footer-links a { color: rgba(255,255,255,0.55); font-size: 0.9rem; transition: color 0.2s; }
-        .footer-links a:hover { color: var(--apple-light); }
+        .footer-links a:hover { color: var(--teal-light); }
         .footer-bottom { border-top: 1px solid rgba(255,255,255,0.06); padding-top: 24px; display: flex; align-items: center; justify-content: space-between; font-size: 0.8rem; color: rgba(255,255,255,0.25); }
         .footer-disclaimer { font-size: 0.75rem; color: rgba(255,255,255,0.2); max-width: 400px; text-align: right; line-height: 1.5; }
         .footer-disclaimer a { color: rgba(255,255,255,0.2); }
@@ -747,7 +747,7 @@ export default function HomePage() {
       {/* NAV */}
       <nav>
         <div className="nav-inner">
-          <div className="nav-logo">Winchester<span>Home</span>Options</div>
+          <div className="nav-logo">Woodbridge<span>Home</span>Options</div>
           <ul className="nav-links">
             <li><a href="#how">How It Works</a></li>
             <li><a href="#options">Your Options</a></li>
@@ -763,13 +763,13 @@ export default function HomePage() {
         <div className="container">
           <div className="hero-inner">
             <div className="hero-content">
-              <div className="hero-eyebrow">Licensed Virginia Agent · Shenandoah Valley</div>
-              <h1>Know your<br /><em>Winchester</em><br />options before you sell.</h1>
-              <p className="hero-subtitle">Twenty years in the Shenandoah Valley — working for you, not against you.</p>
+              <div className="hero-eyebrow">Licensed Virginia Agent · Prince William &amp; Manassas</div>
+              <h1>PCS orders?<br />Inherited property?<br /><em>Life changed fast?</em></h1>
+              <p className="hero-subtitle">Woodbridge sellers deserve real options — not just the first cash offer.</p>
               <p className="hero-body">
-                Whether your home needs work, you&apos;re facing a tight timeline, or you&apos;re just not sure what path makes the most sense — <strong>Winchester sellers have more options than most realize.</strong>
+                Whether you&apos;re facing military orders, dealing with an inherited property, or your home just needs more work than you can take on — <strong>Woodbridge sellers have more options than most realize.</strong>
                 <br /><br />
-                I&apos;m a licensed Virginia agent with two decades of hands-on experience in Winchester, Frederick County, Clarke, Warren, and Shenandoah County — plus direct access to thousands of investors who specifically buy homes in any condition. My job isn&apos;t to sell you anything — it&apos;s to make sure you understand every option available before you decide. The consultation is always free.
+                I&apos;m a licensed Virginia agent with twenty years of hands-on experience from Dale City to Lake Ridge to Manassas — plus direct access to thousands of investors who specifically buy homes in any condition. My job isn&apos;t to sell you anything — it&apos;s to make sure you understand every option available before you decide. The consultation is always free.
               </p>
               <div className="hero-actions">
                 <a href="#contact" className="btn-primary">Get Your Free Options Consultation</a>
@@ -792,8 +792,8 @@ export default function HomePage() {
                   <span className="stat-label">Free Consult</span>
                 </div>
                 <div className="stat">
-                  <span className="stat-number">3</span>
-                  <span className="stat-label">Counties Served</span>
+                  <span className="stat-number">5</span>
+                  <span className="stat-label">Areas Served</span>
                 </div>
               </div>
             </div>
@@ -815,12 +815,13 @@ export default function HomePage() {
                 </div>
                 <div className="form-group">
                   <label className="form-label">Property Address</label>
-                  <input type="text" className="form-input" placeholder="123 Main St, Winchester, VA" required />
+                  <input type="text" className="form-input" placeholder="123 Main St, Woodbridge, VA" required />
                 </div>
                 <div className="form-group">
                   <label className="form-label">Your Situation</label>
                   <select className="form-select form-input" required defaultValue="">
                     <option value="" disabled>Select your situation...</option>
+                    <option>Military PCS / relocation orders</option>
                     <option>Facing foreclosure or pre-foreclosure</option>
                     <option>Inherited property</option>
                     <option>Going through divorce</option>
@@ -829,7 +830,7 @@ export default function HomePage() {
                     <option>Behind on mortgage payments</option>
                     <option>Probate property</option>
                     <option>Tired landlord / problem tenants</option>
-                    <option>Need to sell fast — relocation</option>
+                    <option>Need to sell fast — job transfer</option>
                     <option>Vacant property</option>
                     <option>Code violations</option>
                     <option>Other situation</option>
@@ -869,11 +870,11 @@ export default function HomePage() {
       <div className="diff-strip">
         <div className="container">
           <div className="diff-strip-inner">
-            <div className="diff-item"><span className="diff-icon">✓</span>20+ Years in the Shenandoah Valley</div>
+            <div className="diff-item"><span className="diff-icon">✓</span>20+ Years in Prince William</div>
             <div className="diff-divider"></div>
             <div className="diff-item"><span className="diff-icon">✓</span>Licensed Virginia Agent</div>
             <div className="diff-divider"></div>
-            <div className="diff-item"><span className="diff-icon">✓</span>Thousands of As-Is Investors</div>
+            <div className="diff-item"><span className="diff-icon">✓</span>Military &amp; PCS Friendly</div>
             <div className="diff-divider"></div>
             <div className="diff-item"><span className="diff-icon">✓</span>Free No-Pressure Consultation</div>
             <div className="diff-divider"></div>
@@ -893,13 +894,13 @@ export default function HomePage() {
           <div className="why-grid">
             <div className="why-card">
               <div className="why-number">01</div>
-              <h3>I Know What Winchester Homes Are Actually Worth</h3>
-              <p>Twenty years of hands-on experience in Winchester, Frederick County, and the Shenandoah Valley means I understand what properties sell for on Valley Mill Road, Senseny, Route 7, in Stephens City, Middletown, Berryville, Front Royal — in any condition. You&apos;ll get an honest number, not a guess.</p>
+              <h3>I Know What Prince William Homes Are Actually Worth</h3>
+              <p>Twenty years of hands-on experience across Woodbridge, Dale City, Lake Ridge, Manassas, and Manassas Park means I understand what properties sell for in Old Bridge, Rippon Landing, Tackett&apos;s Mill, Old Town Manassas — in any condition. You&apos;ll get an honest number, not a guess.</p>
             </div>
             <div className="why-card">
               <div className="why-number">02</div>
-              <h3>The Buyers in My Network Aren&apos;t Looking for Perfect Homes</h3>
-              <p>They&apos;re looking for yours. I market your property to thousands of active investors who specifically seek homes in any condition. What feels like a problem to a retail buyer is an opportunity to them — and when they compete, your price goes up.</p>
+              <h3>Military &amp; PCS Sellers Have a Specific Playbook</h3>
+              <p>Quantico orders. Fort Belvoir rotations. Pentagon reassignments. I&apos;ve worked with service members on short timelines, VA loan quirks, and BAH-driven decisions. You need options that fit your reporting date — not a generic pitch.</p>
             </div>
             <div className="why-card">
               <div className="why-number">03</div>
@@ -930,7 +931,7 @@ export default function HomePage() {
               <div className="step-number">2</div>
               <div className="step-content">
                 <h3>We Walk the Property</h3>
-                <p>I come to you — anywhere from Winchester to Front Royal to Berryville. I&apos;ll walk through the property, assess its condition and value, and listen to understand your situation and timeline fully.</p>
+                <p>I come to you — anywhere from Woodbridge to Dale City to Manassas. I&apos;ll walk through the property, assess its condition and value, and listen to understand your situation and timeline fully.</p>
               </div>
             </div>
             <div className="step">
@@ -957,7 +958,7 @@ export default function HomePage() {
           <div className="section-eyebrow">Your options</div>
           <h2 className="section-title">More paths than you<br /><em>probably know about.</em></h2>
           <p className="section-body">
-            Most Winchester sellers think they have one option. In reality, there are several — and the right one depends entirely on your situation.
+            Most Woodbridge and Manassas sellers think they have one option. In reality, there are several — and the right one depends entirely on your situation.
           </p>
           <div className="options-grid">
             <div className="option-card featured">
@@ -972,7 +973,14 @@ export default function HomePage() {
               <div className="option-icon">💰</div>
               <div className="option-content">
                 <h3>Market to As-Is Cash Investors</h3>
-                <p>The investors in my network aren&apos;t looking for perfect homes — they&apos;re looking for yours. I market your Winchester-area property to thousands of buyers who specifically seek homes in any condition. Multiple offers, real competition, fast close. No repairs. No staging. No judgment.</p>
+                <p>The investors in my network aren&apos;t looking for perfect homes — they&apos;re looking for yours. I market your Prince William-area property to thousands of buyers who specifically seek homes in any condition. Multiple offers, real competition, fast close. No repairs. No staging. No judgment.</p>
+              </div>
+            </div>
+            <div className="option-card">
+              <div className="option-icon">🎖️</div>
+              <div className="option-content">
+                <h3>PCS-Timed Sale Strategy</h3>
+                <p>Reporting dates don&apos;t flex. I&apos;ve worked with service members out of Quantico, Fort Belvoir, and the Pentagon to build sale strategies that hit the timeline — including rent-back agreements, VA loan considerations, and fast-close options when your orders change.</p>
               </div>
             </div>
             <div className="option-card">
@@ -1006,10 +1014,11 @@ export default function HomePage() {
           <div className="section-eyebrow">Who we help</div>
           <h2 className="section-title">Every situation is<br /><em>different.</em></h2>
           <p className="section-body">
-            There&apos;s no situation too complicated. If you&apos;re not sure whether we can help — call. Chances are we&apos;ve seen it before in Winchester or the Valley.
+            There&apos;s no situation too complicated. If you&apos;re not sure whether we can help — call. Chances are we&apos;ve seen it before in Prince William or Manassas.
           </p>
           <div className="situations-grid">
             {[
+              { icon: '🎖️', label: 'Military PCS / Orders' },
               { icon: '⚠️', label: 'Pre-Foreclosure' },
               { icon: '🏚️', label: 'Home Needs Major Repairs' },
               { icon: '📋', label: 'Inherited Property' },
@@ -1021,7 +1030,6 @@ export default function HomePage() {
               { icon: '🔑', label: 'Tired Landlord' },
               { icon: '🏠', label: 'Vacant Property' },
               { icon: '💳', label: 'Behind on Payments' },
-              { icon: '❓', label: 'Other Situation' },
             ].map((s) => (
               <a href="#contact" className="situation-chip" key={s.label}>
                 <div className="situation-icon">{s.icon}</div>
@@ -1039,23 +1047,23 @@ export default function HomePage() {
             <div>
               <div className="trust-stars">★★★★★</div>
               <blockquote className="trust-quote">
-                Before you accept a cash offer, find out what your house is actually worth on the open market. Most Winchester sellers leave money on the table simply because nobody told them they had another option.
+                Before you accept a cash offer, find out what your house is actually worth on the open market. Most Woodbridge and Manassas sellers leave money on the table simply because nobody told them they had another option.
               </blockquote>
-              <div className="trust-attribution">Winchester Home Options — Our Promise</div>
+              <div className="trust-attribution">Woodbridge Home Options — Our Promise</div>
             </div>
             <div className="trust-stats">
               <div className="trust-stat">
                 <div className="trust-stat-icon">🏠</div>
                 <div>
                   <div className="trust-stat-number">20+ Years</div>
-                  <div className="trust-stat-label">Hands-on experience in the Shenandoah Valley</div>
+                  <div className="trust-stat-label">Hands-on experience in Prince William County</div>
                 </div>
               </div>
               <div className="trust-stat">
                 <div className="trust-stat-icon">📍</div>
                 <div>
-                  <div className="trust-stat-number">3 Counties</div>
-                  <div className="trust-stat-label">Frederick, Clarke &amp; Warren County</div>
+                  <div className="trust-stat-number">5 Areas</div>
+                  <div className="trust-stat-label">Woodbridge, Dale City, Lake Ridge, Manassas, Manassas Park</div>
                 </div>
               </div>
               <div className="trust-stat">
@@ -1066,10 +1074,10 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="trust-stat">
-                <div className="trust-stat-icon">👥</div>
+                <div className="trust-stat-icon">🎖️</div>
                 <div>
-                  <div className="trust-stat-number">Thousands</div>
-                  <div className="trust-stat-label">Active investors who specifically buy homes in any condition</div>
+                  <div className="trust-stat-number">Military Friendly</div>
+                  <div className="trust-stat-label">Quantico · Fort Belvoir · Pentagon — PCS sales handled</div>
                 </div>
               </div>
             </div>
@@ -1080,7 +1088,7 @@ export default function HomePage() {
       {/* FINAL CTA */}
       <section className="cta-section">
         <div className="container">
-          <h2>Ready to know <em>all</em> your Winchester options?</h2>
+          <h2>Ready to know <em>all</em> your Woodbridge options?</h2>
           <p>The consultation is free. The information is honest. The decision is always yours.</p>
           <div className="cta-actions">
             <a href="#contact" className="btn-primary">Get Your Free Consultation</a>
@@ -1098,41 +1106,38 @@ export default function HomePage() {
         <div className="container">
           <div className="footer-inner">
             <div>
-              <div className="footer-brand">Winchester<span>Home</span>Options</div>
+              <div className="footer-brand">Woodbridge<span>Home</span>Options</div>
               <p className="footer-desc">
-                A licensed Virginia real estate agent helping Winchester-area homeowners understand all their options — from listing as-is to connecting with thousands of investors who specifically buy homes in any condition. Twenty years of hands-on experience in the Shenandoah Valley.
+                A licensed Virginia real estate agent helping Prince William and Manassas homeowners understand all their options — from listing as-is to connecting with thousands of investors who specifically buy homes in any condition. Twenty years of hands-on experience serving military and civilian sellers across Prince William County.
               </p>
               <div className="footer-phone">571-989-3269</div>
             </div>
             <div>
               <div className="footer-heading">Quick Links</div>
               <ul className="footer-links">
-                <li><a href="/sell-my-house-fast-winchester-va">Sell in Winchester</a></li>
-                <li><a href="/sell-my-house-fast-front-royal-va">Sell in Front Royal</a></li>
-                <li><a href="/sell-my-house-fast-stephens-city-va">Sell in Stephens City</a></li>
-                <li><a href="/sell-house-foreclosure-winchester-va">Facing Foreclosure</a></li>
-                <li><a href="/sell-inherited-house-winchester-va">Inherited Property</a></li>
-                <li><a href="/sell-my-house-fast-frederick-county-va">Frederick County</a></li>
+                <li><a href="#how">How It Works</a></li>
+                <li><a href="#options">Your Options</a></li>
+                <li><a href="#situations">Situations We Help</a></li>
+                <li><a href="#contact">Free Consultation</a></li>
               </ul>
             </div>
             <div>
               <div className="footer-heading">Service Areas</div>
               <ul className="footer-links">
-                <li><a href="/sell-my-house-fast-winchester-va">Winchester City</a></li>
-                <li><a href="/sell-my-house-fast-frederick-county-va">Frederick County</a></li>
-                <li><a href="/sell-my-house-fast-clarke-county-va">Clarke County</a></li>
-                <li><a href="/sell-my-house-fast-warren-county-va">Warren County</a></li>
-                <li><a href="/sell-my-house-fast-front-royal-va">Front Royal</a></li>
-                <li><a href="/sell-my-house-fast-berryville-va">Berryville</a></li>
+                <li><a href="#">Woodbridge</a></li>
+                <li><a href="#">Dale City</a></li>
+                <li><a href="#">Lake Ridge</a></li>
+                <li><a href="#">Manassas</a></li>
+                <li><a href="#">Manassas Park</a></li>
               </ul>
             </div>
           </div>
           <div className="footer-bottom">
-            <div>© 2026 Winchester Home Options. All rights reserved.</div>
+            <div>© 2026 Woodbridge Home Options. All rights reserved.</div>
             <div className="footer-disclaimer">
-              Licensed Real Estate Agent · Pearson Smith Realty · Virginia
+              Licensed Real Estate Agent · Pearson Smith Realty · Virginia License #0225XXXXXX
               <br />
-              <a href="/privacy">Privacy Policy</a> · <a href="/terms">Terms of Service</a>
+              <a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a>
             </div>
           </div>
         </div>
