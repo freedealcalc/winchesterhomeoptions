@@ -1,5 +1,5 @@
-import { getMarketStats } from '../../../lib/getMarketStats';
-import ContentPage from '../../../components/ContentPage';
+import { getMarketStats } from '../../lib/getMarketStats';
+import ContentPage from '../../components/ContentPage';
 
 export const revalidate = 2592000;
 
