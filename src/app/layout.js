@@ -24,6 +24,9 @@ const dmMono = DM_Mono({
 export const metadata = {
   title: 'Winchester Home Options | Know Your Options Before You Sell',
   description: 'Selling a home in Winchester, Frederick County, Clarke, or Warren County? Get honest options from a licensed Virginia agent with 20+ years in the Shenandoah Valley and access to thousands of cash buyers who buy homes in any condition. Free no-pressure consultation.',
+  verification: {
+    google: 'QJeWbFQ0DeLC5DhjyIdr6Ou8KnlVclEac70QnM-LdxE',
+  },
 }
 
 export default function RootLayout({ children }) {
