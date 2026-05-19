@@ -23,8 +23,11 @@ const dmMono = DM_Mono({
 })
 
 export const metadata = {
-  title: 'Sell My House Fast in Woodbridge VA | Woodbridge Home Options',
-  description: 'Selling a home in Woodbridge, Dale City, Lake Ridge, Manassas, or Manassas Park? Get honest options from a licensed Virginia agent with 20+ years in Prince William County — military PCS friendly, access to thousands of cash buyers who buy homes in any condition. Free no-pressure consultation.',
+  title: 'Winchester Home Options | Know Your Options Before You Sell',
+  description: 'Selling a home in Winchester, Frederick County, Clarke, or Warren County? Get honest options from a licensed Virginia agent with 20+ years in the Shenandoah Valley and access to thousands of cash buyers who buy homes in any condition. Free no-pressure consultation.',
+  verification: {
+    google: 'QJeWbFQ0DeLC5DhjyIdr6Ou8KnlVclEac70QnM-LdxE',
+  },
 }
 
 export default function RootLayout({ children }) {
@@ -32,14 +35,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-Z19VVG9D6G"
+          src="https://www.googletagmanager.com/gtag/js?id=G-VTB786E5YM"
           strategy="afterInteractive"
         />
         <Script id="ga4-init" strategy="afterInteractive">{`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-Z19VVG9D6G');
+          gtag('config', 'G-VTB786E5YM');
         `}</Script>
       </head>
       <body className={`${playfair.variable} ${sourceSerif.variable} ${dmMono.variable}`}>
