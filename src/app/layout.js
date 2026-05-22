@@ -35,14 +35,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-VTB786E5YM"
+          src="https://www.googletagmanager.com/gtag/js?id=G-NC1H5EVHDR"
           strategy="afterInteractive"
         />
         <Script id="ga4-init" strategy="afterInteractive">{`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-VTB786E5YM');
+          gtag('config', 'G-NC1H5EVHDR');
         `}</Script>
       </head>
       <body className={`${playfair.variable} ${sourceSerif.variable} ${dmMono.variable}`}>
