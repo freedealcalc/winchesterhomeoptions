@@ -1,7 +1,7 @@
 import { readdirSync, statSync } from 'fs';
 import { join } from 'path';
 
-const BASE_URL = 'https://www.woodbridgehomeoptions.com';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.winchesterhomeoptions.com';
 
 function getRoutes() {
   const appDir = join(process.cwd(), 'src', 'app');
