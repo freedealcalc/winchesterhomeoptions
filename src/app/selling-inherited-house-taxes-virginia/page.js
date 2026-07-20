@@ -4,7 +4,7 @@ export const revalidate = 2592000;
 
 export const metadata = {
   title: 'Tax Implications of Selling an Inherited House in Virginia',
-  description: 'Selling an inherited home in Virginia and worried about taxes? Licensed agent Dan White explains the stepped-up basis, capital gains rules, and what questions to ask your CPA before you sell. Free consultation.',
+  description: 'Selling an inherited home in Virginia? Dan White explains stepped-up basis, capital gains, and what to ask your CPA before selling. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/selling-inherited-house-taxes-virginia' },
   openGraph: {
     title: 'Tax Implications of Selling an Inherited House in Virginia',

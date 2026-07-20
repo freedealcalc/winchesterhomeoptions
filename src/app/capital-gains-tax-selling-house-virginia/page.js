@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Capital Gains Tax When Selling a House in Virginia | What Sellers Need to Know',
-  description: 'Worried about capital gains tax when selling your Virginia home? Licensed agent Dan White explains the primary residence exclusion, inherited property stepped-up basis, and how to minimize taxes. Free consultation.',
+  title: 'Capital Gains Tax When Selling a House in Virginia',
+  description: 'Worried about capital gains tax selling your Virginia home? Dan White explains the primary residence exclusion and stepped-up basis. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/capital-gains-tax-selling-house-virginia' },
   openGraph: {
     title: 'Capital Gains Tax When Selling a House in Virginia',

@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell an Inherited House in Winchester VA | Every Option Explained',
-  description: 'Sell your inherited Winchester home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — cash sale, as-is listing, wholetail, and more — so you make the right call. Free consultation, no pressure.',
+  title: 'Sell an Inherited House in Winchester, VA',
+  description: 'Inherited a Winchester home? Licensed agent Dan White explains every option — cash sale, as-is listing, wholetail. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-inherited-house-winchester-va' },
   openGraph: {
     title: 'Sell an Inherited House in Winchester VA | Every Option Explained',

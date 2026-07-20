@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a Fire Damaged House in Winchester VA | Every Option Explained',
-  description: 'Sell your fire damaged Winchester home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — no repairs required. Free consultation, no pressure.',
+  title: 'Sell a Fire Damaged House in Winchester VA | Options',
+  description: 'Fire damaged home in Winchester? Licensed agent Dan White covers every option to sell as-is — no repairs required. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-fire-damaged-house-winchester-va' },
   openGraph: {
     title: 'Sell a Fire Damaged House in Winchester VA',

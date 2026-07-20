@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a House During Divorce in Berryville VA | Every Option Explained',
-  description: 'Sell your Berryville home fast during divorce and walk away with the most money your situation allows. Licensed Virginia agent Dan White works with both parties for a fair outcome. Free consultation, no pressure.',
+  title: 'Selling a House During Divorce in Berryville VA',
+  description: 'Sell your Berryville home fast during divorce for the most money. Dan White works with both parties for a fair outcome. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-divorce-berryville-va' },
   openGraph: { title: 'Selling a House During Divorce in Berryville VA', description: 'Selling a home during divorce in Berryville? Dan White handles the transaction professionally so both parties walk away with the most money. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-divorce-berryville-va' },
 };

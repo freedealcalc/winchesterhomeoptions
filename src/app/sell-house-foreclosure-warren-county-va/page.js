@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell Your House Before Foreclosure in Warren County VA | Stop the Clock',
-  description: 'Sell your Warren County home fast and walk away with the most money your situation allows — even facing foreclosure. Dan White goes over every option so you protect your credit and equity. Free consultation, no pressure.',
+  title: 'Sell Your House Before Foreclosure in Warren County VA',
+  description: 'Facing foreclosure in Warren County? Dan White explains every option to sell fast, protect your credit and equity. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-foreclosure-warren-county-va' },
   openGraph: { title: 'Sell Your House Before Foreclosure in Warren County VA', description: 'Facing foreclosure in Warren County? You have more time and options than you think. Dan White goes over every path. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-foreclosure-warren-county-va' },
 };

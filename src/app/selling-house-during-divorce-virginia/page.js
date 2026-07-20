@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a House During Divorce in Virginia | Every Option Explained',
-  description: 'Selling a home during divorce in Virginia? Licensed agent Dan White explains every option — who decides, how proceeds are split, and how to sell fast for the most money. Free consultation, no pressure.',
+  title: 'Selling a House During Divorce in Virginia | Options',
+  description: 'Selling a home during divorce in Virginia? Dan White, licensed VA agent, explains every option to sell fast for the most money. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/selling-house-during-divorce-virginia' },
   openGraph: {
     title: 'Selling a House During Divorce in Virginia',

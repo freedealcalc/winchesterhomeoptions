@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Can an HOA Foreclose on Your Home in Virginia? What Homeowners Need to Know',
-  description: 'Can an HOA foreclose in Virginia? Yes — and faster than you think. Licensed agent Dan White explains HOA lien rights, the foreclosure process, and how to sell before it happens. Free consultation.',
+  title: 'Can an HOA Foreclose on Your Virginia Home?',
+  description: 'Can an HOA foreclose in Virginia? Yes. Licensed agent Dan White explains your rights and how to sell before it happens. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/can-hoa-foreclose-virginia' },
   openGraph: {
     title: 'Can an HOA Foreclose on Your Home in Virginia?',

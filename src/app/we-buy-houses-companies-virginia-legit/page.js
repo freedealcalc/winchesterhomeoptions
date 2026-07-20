@@ -4,7 +4,7 @@ export const revalidate = 2592000;
 
 export const metadata = {
   title: 'Are We Buy Houses Companies Legit in Virginia? Honest Answer',
-  description: 'Wondering if "we buy houses" companies in Virginia are legitimate? Licensed agent and investor Dan White gives you the honest answer — what to watch for, how to protect yourself, and how to get a better deal. Free consultation.',
+  description: 'Are Virginia cash-buyer companies legit? Licensed agent Dan White gives the honest answer, red flags to avoid, and a free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/we-buy-houses-companies-virginia-legit' },
   openGraph: {
     title: 'Are We Buy Houses Companies Legit in Virginia?',

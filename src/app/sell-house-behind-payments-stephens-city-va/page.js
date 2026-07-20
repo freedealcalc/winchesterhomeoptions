@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House Behind on Payments in Stephens City VA | Stop the Damage',
-  description: 'Sell your Stephens City home fast and walk away with the most money your situation allows — even if you are behind on payments. Dan White goes over every option before foreclosure closes the door. Free consultation, no pressure.',
+  title: 'Behind on Payments in Stephens City VA? Your Options',
+  description: 'Behind on mortgage payments in Stephens City? Dan White explains every option before foreclosure hits. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-behind-payments-stephens-city-va' },
   openGraph: {
     title: 'Sell My House Behind on Payments in Stephens City VA',

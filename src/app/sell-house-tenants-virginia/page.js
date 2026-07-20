@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a House with Tenants in Virginia | Every Option Explained',
-  description: 'Selling a Virginia rental property with tenants? Licensed agent Dan White explains every option — selling with tenants in place, cash buyers, MLS listing — and how to walk away with the most money. Free consultation.',
+  title: 'Selling a House with Tenants in Virginia | Options',
+  description: 'Selling a Virginia rental with tenants? Dan White explains every option — tenants in place, cash buyers, MLS — for the most money. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-tenants-virginia' },
   openGraph: {
     title: 'Selling a House with Tenants in Virginia',

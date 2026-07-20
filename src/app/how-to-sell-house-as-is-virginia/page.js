@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'How to Sell a House As-Is in Virginia | Every Option Explained',
-  description: 'Selling a Virginia home as-is? Licensed agent Dan White explains every as-is selling path — cash sale, MLS listing, wholetail — and how to walk away with the most money without spending a dollar on repairs. Free consultation.',
+  title: 'How to Sell a House As-Is in Virginia | Every Option',
+  description: 'Selling as-is in Virginia? Licensed agent Dan White explains every path — cash sale, MLS, wholetail — for the most money. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/how-to-sell-house-as-is-virginia' },
   openGraph: {
     title: 'How to Sell a House As-Is in Virginia',

@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'We Buy Houses Berryville VA | Every Option, Not Just One Cash Offer',
-  description: 'Looking for cash home buyers in Berryville VA? Sell your home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option. Free consultation, no pressure.',
+  title: 'We Buy Houses in Berryville VA | Every Option Explained',
+  description: 'Cash home buyers in Berryville VA? Dan White, licensed VA agent, shows you every option to sell for the most money. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/we-buy-houses-berryville-va' },
   openGraph: { title: 'We Buy Houses Berryville VA | Every Option, Not Just One Offer', description: 'Cash buyers in Berryville VA? Dan White connects you with competing investors and shows you every option. Free consultation.', url: 'https://www.winchesterhomeoptions.com/we-buy-houses-berryville-va' },
 };

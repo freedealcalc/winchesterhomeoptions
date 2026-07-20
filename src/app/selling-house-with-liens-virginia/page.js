@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a House with Liens in Virginia | Every Option Explained',
-  description: 'Selling a Virginia home with liens? Licensed agent Dan White explains how liens work, which ones can be paid at closing, and how to sell fast and walk away with the most money your situation allows. Free consultation.',
+  title: 'Selling a House with Liens in Virginia | Your Options',
+  description: 'Selling a Virginia home with liens? Licensed agent Dan White explains how liens get paid at closing so you sell fast for top dollar. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/selling-house-with-liens-virginia' },
   openGraph: {
     title: 'Selling a House with Liens in Virginia',

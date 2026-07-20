@@ -4,10 +4,10 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a Vacant House in Front Royal VA | Stop the Drain, Get the Most Money',
-  description: 'Sell your vacant Front Royal home fast and walk away with the most money your situation allows. Dan White goes over every option — vacant properties are his specialty. Free consultation, no pressure.',
+  title: 'Sell a Vacant House in Front Royal, VA | Dan White',
+  description: 'Vacant Front Royal property draining your money? Dan White gets it sold fast for the most money the market allows. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-vacant-house-front-royal-va' },
-  openGraph: { title: 'Sell a Vacant House in Front Royal VA', description: 'Vacant property in Front Royal costing you money every month? Dan White gets it sold fast, for the most money. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-vacant-house-front-royal-va' },
+  openGraph: { title: 'Sell a Vacant House in Front Royal, VA | Dan White', description: 'Vacant property in Front Royal costing you money every month? Dan White gets it sold fast, for the most money. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-vacant-house-front-royal-va' },
 };
 
 export default async function FrontRoyalVacantPage() {

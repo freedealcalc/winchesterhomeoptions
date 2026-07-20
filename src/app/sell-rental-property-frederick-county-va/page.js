@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a Rental Property in Frederick County VA | Every Option Explained',
-  description: 'Sell your Frederick County rental property fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every exit option — tenants in place or vacant. Free consultation, no pressure.',
+  title: 'Sell a Rental Property in Frederick County VA',
+  description: 'Selling a Frederick County VA rental? Licensed agent Dan White covers every exit — tenants in place or vacant. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-rental-property-frederick-county-va' },
   openGraph: { title: 'Sell a Rental Property in Frederick County VA', description: 'Done being a landlord in Frederick County? Dan White walks you through every exit — tenants or vacant, cash or MLS. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-rental-property-frederick-county-va' },
 };

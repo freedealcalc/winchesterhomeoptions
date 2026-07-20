@@ -4,10 +4,10 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a House with Mold in Stephens City VA | Every Option Explained',
-  description: 'Sell your Stephens City home fast even with mold and walk away with the most money your situation allows. Dan White goes over every option — mold does not have to block your sale. Free consultation, no pressure.',
+  title: 'Sell a House With Mold in Stephens City, VA',
+  description: 'Mold does not have to block your Stephens City sale. Dan White reviews every option so you get the most money. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-mold-stephens-city-va' },
-  openGraph: { title: 'Sell a House with Mold in Stephens City VA', description: 'Mold in your Stephens City home? Dan White walks you through every option. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-mold-stephens-city-va' },
+  openGraph: { title: 'Sell a House With Mold in Stephens City, VA', description: 'Mold in your Stephens City home? Dan White walks you through every option. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-mold-stephens-city-va' },
 };
 
 export default async function StephensCityMoldPage() {

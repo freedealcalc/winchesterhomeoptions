@@ -4,11 +4,11 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell an Inherited House in Berryville VA | Every Option Explained',
-  description: 'Sell your inherited Berryville home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — cash sale, as-is listing, wholetail, and more. Free consultation, no pressure.',
+  title: 'Sell an Inherited House in Berryville, VA | Dan White',
+  description: 'Inherited a Berryville home? Licensed agent Dan White explains every option, cash sale, as-is listing, wholetail. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-inherited-house-berryville-va' },
   openGraph: {
-    title: 'Sell an Inherited House in Berryville VA',
+    title: 'Sell an Inherited House in Berryville, VA | Dan White',
     description: 'Inherited a home in Berryville? Dan White walks you through every option — and which one gets you the most money. Free consultation.',
     url: 'https://www.winchesterhomeoptions.com/sell-inherited-house-berryville-va',
   },

@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a House with Tax Liens in Front Royal VA | Every Option',
-  description: 'Sell your Front Royal home fast with tax liens and walk away with the most money your situation allows. Dan White goes over every option — liens resolve at closing. Free consultation, no pressure.',
+  title: 'Sell a House with Tax Liens in Front Royal VA',
+  description: 'Have tax liens on your Front Royal home? You can still sell — liens resolve at closing. Dan White covers every option. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-tax-lien-front-royal-va' },
   openGraph: { title: 'Sell a House with Tax Liens in Front Royal VA', description: 'Tax liens on your Front Royal home do not block a sale. Dan White walks you through every option. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-tax-lien-front-royal-va' },
 };

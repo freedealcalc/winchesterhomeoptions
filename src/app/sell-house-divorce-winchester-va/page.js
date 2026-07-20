@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a House During Divorce in Winchester VA | Every Option Explained',
-  description: 'Sell your Winchester home fast during divorce and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option so both parties get a fair outcome. Free consultation, no pressure.',
+  title: 'Selling a House During Divorce in Winchester, VA',
+  description: 'Selling during divorce in Winchester? Dan White covers every option so both parties get a fair outcome. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-divorce-winchester-va' },
   openGraph: {
     title: 'Selling a House During Divorce in Winchester VA',

@@ -4,10 +4,10 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell an Inherited House in Warren County VA | Every Option Explained',
-  description: 'Sell your inherited Warren County home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — farmhouses, rural estates, any condition. Free consultation, no pressure.',
+  title: 'Sell an Inherited House in Warren County, VA',
+  description: 'Inherited a Warren County home? Licensed agent Dan White covers every option, farmhouses, rural estates, any condition. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-inherited-house-warren-county-va' },
-  openGraph: { title: 'Sell an Inherited House in Warren County VA', description: 'Inherited a home in Warren County? Dan White walks you through every option — and which one gets the estate the most money. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-inherited-house-warren-county-va' },
+  openGraph: { title: 'Sell an Inherited House in Warren County, VA', description: 'Inherited a home in Warren County? Dan White walks you through every option — and which one gets the estate the most money. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-inherited-house-warren-county-va' },
 };
 
 export default async function WarrenCountyInheritedPage() {

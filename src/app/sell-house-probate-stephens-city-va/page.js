@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a House in Probate in Stephens City VA | Every Option Explained',
-  description: 'Sell your Stephens City probate home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option so the estate gets the best outcome. Free consultation, no pressure.',
+  title: 'Selling a Probate House in Stephens City VA',
+  description: 'Sell a Stephens City probate home for the most money. Licensed VA agent Dan White reviews every option for the estate. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-probate-stephens-city-va' },
   openGraph: {
     title: 'Selling a House in Probate in Stephens City VA',

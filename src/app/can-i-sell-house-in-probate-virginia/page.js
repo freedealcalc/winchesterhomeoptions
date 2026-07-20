@@ -4,7 +4,7 @@ export const revalidate = 2592000;
 
 export const metadata = {
   title: 'Can I Sell a House in Probate in Virginia? Yes — Here\'s How',
-  description: 'Can you sell a house while it\'s in probate in Virginia? In most cases yes. Licensed agent Dan White explains the process, what the court requires, and how to get the estate the most money. Free consultation.',
+  description: 'Can you sell a house in probate in Virginia? Usually yes. Dan White explains the process and how to get the estate the most money. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/can-i-sell-house-in-probate-virginia' },
   openGraph: {
     title: 'Can I Sell a House in Probate in Virginia?',

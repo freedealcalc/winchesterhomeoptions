@@ -5,7 +5,7 @@ export const revalidate = 2592000;
 
 export const metadata = {
   title: 'Sell My House in Warren County VA | Front Royal Home Options',
-  description: 'Selling a house in Warren County VA? Dan White covers every option for Front Royal and Warren County homeowners — cash sale, as-is listing, wholetail. Free consultation.',
+  description: 'Selling in Warren County VA? Dan White, licensed agent, covers every option — cash, as-is, wholetail. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/warren-county' },
   openGraph: {
     title: 'Sell My House in Warren County VA | Front Royal Home Options',

@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a Fire Damaged House in Stephens City VA | As-Is, No Repairs',
-  description: 'Sell your fire damaged Stephens City home fast and walk away with the most money your situation allows. Dan White connects you with buyers who purchase fire damaged properties as-is. Free consultation, no pressure.',
+  title: 'Sell a Fire Damaged House in Stephens City, VA',
+  description: 'Fire damaged home in Stephens City? Dan White connects you with buyers who purchase as-is, no repairs. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-fire-damaged-house-stephens-city-va' },
   openGraph: { title: 'Sell a Fire Damaged House in Stephens City VA', description: 'Fire damaged home in Stephens City? Buyers who purchase as-is. Dan White walks you through every option. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-fire-damaged-house-stephens-city-va' },
 };

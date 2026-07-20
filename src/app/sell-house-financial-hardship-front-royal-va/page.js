@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House in Financial Hardship in Front Royal VA | Every Option',
-  description: 'Sell your Front Royal home fast during financial hardship and walk away with the most money your situation allows. Dan White goes over every option with no judgment. Free consultation, no pressure.',
+  title: 'Financial Hardship in Front Royal VA? Sell Your House Fast',
+  description: 'Facing financial hardship in Front Royal? Dan White reviews every option to sell fast for the most money, with no judgment. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-financial-hardship-front-royal-va' },
   openGraph: { title: 'Sell My House in Financial Hardship in Front Royal VA', description: 'Financial hardship in Front Royal? Dan White goes over every option honestly, without judgment. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-financial-hardship-front-royal-va' },
 };

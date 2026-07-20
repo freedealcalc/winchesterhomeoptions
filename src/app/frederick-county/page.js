@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House in Frederick County VA | Home Options for Every Situation',
-  description: 'Selling a house in Frederick County VA? Dan White covers every option — cash sale, as-is listing, wholetail. Winchester to Middletown to Stephens City. Free consultation.',
+  title: 'Sell My House in Frederick County, VA | Options',
+  description: 'Selling in Frederick County VA? Dan White covers every option — cash sale, as-is listing, wholetail. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/frederick-county' },
   openGraph: {
     title: 'Sell My House in Frederick County VA | Home Options for Every Situation',

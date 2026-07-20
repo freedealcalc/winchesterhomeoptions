@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House Fast in Strasburg VA | Every Option, Honest Advice',
-  description: 'Sell your Strasburg home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — cash sale, as-is listing, wholetail, and more — so you make the right call. Free consultation, no pressure.',
+  title: 'Sell My House Fast in Strasburg VA | All Options',
+  description: 'Sell your Strasburg home fast for top dollar. Dan White, licensed VA agent, reviews every option — cash, as-is, or listing. Free, no-pressure consult.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-my-house-fast-strasburg-va' },
   openGraph: {
     title: 'Sell My House Fast in Strasburg VA | Every Option, Honest Advice',

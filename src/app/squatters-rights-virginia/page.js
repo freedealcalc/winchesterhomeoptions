@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Squatters Rights in Virginia | What Property Owners Need to Know',
-  description: 'Squatters on your Virginia property? Licensed agent Dan White explains Virginia squatter and adverse possession laws, the removal process, and how to sell after the situation is resolved. Free consultation.',
+  title: 'Squatters Rights in Virginia | Owner’s Guide',
+  description: 'Squatters on your Virginia property? Licensed agent Dan White explains the law, the removal process, and your options to sell after. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/squatters-rights-virginia' },
   openGraph: {
     title: 'Squatters Rights in Virginia',

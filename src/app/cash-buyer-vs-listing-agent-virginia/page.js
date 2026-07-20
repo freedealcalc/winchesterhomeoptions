@@ -4,7 +4,7 @@ export const revalidate = 2592000;
 
 export const metadata = {
   title: 'Cash Buyer vs Listing Agent in Virginia | Honest Comparison',
-  description: 'Should you sell to a cash buyer or list with an agent in Virginia? Licensed agent Dan White gives you the honest comparison — and shows you why the answer is almost never just one or the other. Free consultation.',
+  description: 'Cash buyer or listing agent in Virginia? Dan White gives you the honest comparison and every option in between. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/cash-buyer-vs-listing-agent-virginia' },
   openGraph: {
     title: 'Cash Buyer vs Listing Agent in Virginia | Honest Comparison',

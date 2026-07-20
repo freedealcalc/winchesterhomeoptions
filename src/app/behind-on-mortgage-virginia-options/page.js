@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Behind on Mortgage Payments in Virginia? Every Option Explained',
-  description: 'Behind on your Virginia mortgage and not sure what to do? Licensed agent Dan White explains every option — loan modification, forbearance, short sale, and selling before foreclosure — so you walk away with the most money your situation allows. Free consultation.',
+  title: 'Behind on Your Virginia Mortgage? Every Option Explained',
+  description: 'Behind on your Virginia mortgage? Dan White explains every option — modification, forbearance, short sale, selling before foreclosure. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/behind-on-mortgage-virginia-options' },
   openGraph: {
     title: 'Behind on Mortgage Payments in Virginia? Every Option Explained',

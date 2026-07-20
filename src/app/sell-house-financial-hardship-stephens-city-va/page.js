@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House in Financial Hardship in Stephens City VA | Every Option',
-  description: 'Sell your Stephens City home fast during financial hardship and walk away with the most money your situation allows. Dan White goes over every option with no judgment. Free consultation, no pressure.',
+  title: 'Financial Hardship? Sell Your Stephens City Home',
+  description: 'Financial hardship in Stephens City? Dan White goes over every selling option with no judgment. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-financial-hardship-stephens-city-va' },
   openGraph: { title: 'Sell My House in Financial Hardship in Stephens City VA', description: 'Financial hardship in Stephens City? Dan White goes over every option honestly, without judgment. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-financial-hardship-stephens-city-va' },
 };

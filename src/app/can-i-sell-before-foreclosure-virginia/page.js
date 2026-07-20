@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Can I Sell My House Before Foreclosure in Virginia? Yes — Here\'s How',
-  description: 'Facing foreclosure in Virginia and wondering if you can still sell? Yes — and selling fast is almost always better than letting it go to auction. Dan White explains every option and walks you through the process. Free consultation.',
+  title: 'Can I Sell My House Before Foreclosure in Virginia?',
+  description: 'Facing foreclosure in Virginia? Yes, you can still sell. Dan White, a licensed VA agent, explains every option to protect your equity. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/can-i-sell-before-foreclosure-virginia' },
   openGraph: {
     title: 'Can I Sell My House Before Foreclosure in Virginia?',

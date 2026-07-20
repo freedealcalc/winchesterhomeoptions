@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Closing Costs for Sellers in Virginia | What You Actually Pay',
-  description: 'What are seller closing costs in Virginia? Licensed agent Dan White breaks down every cost — commissions, taxes, title fees, and more — and shows you how to maximize your net proceeds. Free consultation.',
+  title: 'Virginia Seller Closing Costs | What You Actually Pay',
+  description: 'What do sellers pay at closing in Virginia? Dan White breaks down every cost and shows you how to maximize your net proceeds. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/closing-costs-seller-virginia' },
   openGraph: {
     title: 'Closing Costs for Sellers in Virginia',

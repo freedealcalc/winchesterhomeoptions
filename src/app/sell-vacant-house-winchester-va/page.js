@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a Vacant House in Winchester VA | Every Option Explained',
-  description: 'Sell your vacant Winchester home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — vacant properties are his specialty. Free consultation, no pressure.',
+  title: 'Sell a Vacant House in Winchester VA | Every Option',
+  description: 'Sell your vacant Winchester home fast for the most money. Dan White specializes in vacant properties and covers every option. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-vacant-house-winchester-va' },
   openGraph: {
     title: 'Sell a Vacant House in Winchester VA',

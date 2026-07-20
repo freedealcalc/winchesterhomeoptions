@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell Your House Fast for PCS in Stephens City VA | Every Option',
-  description: 'PCS orders out of Stephens City? Sell your home fast and walk away with the most money your timeline allows. Licensed Virginia agent Dan White goes over every option. Free consultation, no pressure.',
+  title: 'PCS Orders in Stephens City VA? Sell Fast, Every Option',
+  description: 'PCS orders out of Stephens City? Dan White, licensed VA agent, covers every option to sell fast for top dollar. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-pcs-stephens-city-va' },
   openGraph: {
     title: 'Sell Your House Fast for PCS in Stephens City VA',

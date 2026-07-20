@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell Your House Fast for PCS in Front Royal VA | Every Option',
-  description: 'PCS orders out of Front Royal? Sell your home fast and walk away with the most money your timeline allows. Licensed Virginia agent Dan White goes over every option. Free consultation, no pressure.',
+  title: 'Sell Your House Fast for PCS in Front Royal, VA',
+  description: 'PCS orders from Front Royal? Licensed agent Dan White covers every option to sell fast and keep the most money. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-pcs-front-royal-va' },
   openGraph: {
     title: 'Sell Your House Fast for PCS in Front Royal VA',

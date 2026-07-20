@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a House with a VA Loan in Virginia | Every Option Explained',
-  description: 'Selling a Virginia home that has a VA loan? Licensed agent Dan White explains every option — assumption, payoff, and more — and how to walk away with the most money. Free consultation, no pressure.',
+  title: 'Selling a House with a VA Loan in Virginia',
+  description: 'VA loan on your Virginia home? Dan White explains every option — assumption, payoff, and more — to maximize your proceeds. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/selling-house-with-va-loan-virginia' },
   openGraph: {
     title: 'Selling a House with a VA Loan in Virginia',

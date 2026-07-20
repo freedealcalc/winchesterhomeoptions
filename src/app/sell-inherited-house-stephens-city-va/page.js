@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell an Inherited House in Stephens City VA | Every Option Explained',
-  description: 'Sell your inherited Stephens City home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — cash sale, as-is listing, wholetail, and more — so you make the right call. Free consultation, no pressure.',
+  title: 'Inherited a House in Stephens City VA? Every Option',
+  description: 'Inherited a house in Stephens City VA? Dan White, licensed agent, covers every option — cash, as-is, wholetail — for the most money. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-inherited-house-stephens-city-va' },
   openGraph: {
     title: 'Sell an Inherited House in Stephens City VA',

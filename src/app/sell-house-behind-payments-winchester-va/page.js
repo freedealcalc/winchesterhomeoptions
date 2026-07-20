@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House Behind on Payments in Winchester VA | Stop the Damage Now',
-  description: 'Sell your Winchester home fast and walk away with the most money your situation allows — even if you\'re behind on payments. Licensed Virginia agent Dan White goes over every option before foreclosure takes it off the table. Free consultation, no pressure.',
+  title: 'Behind on Payments in Winchester VA? You Have Options',
+  description: 'Behind on mortgage payments in Winchester VA? Licensed agent Dan White covers every option before foreclosure. Free, confidential consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-behind-payments-winchester-va' },
   openGraph: {
     title: 'Sell My House Behind on Payments in Winchester VA',

@@ -4,10 +4,10 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a House with Code Violations in Front Royal VA | Every Option',
-  description: 'Sell your Front Royal home fast with code violations and walk away with the most money your situation allows. Dan White goes over every option — you do not have to fix violations to sell. Free consultation, no pressure.',
+  title: 'Sell a House With Code Violations | Front Royal, VA',
+  description: 'Code violations on your Front Royal home? Dan White reviews every option, you do not have to fix violations to sell. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-code-violations-front-royal-va' },
-  openGraph: { title: 'Sell a House with Code Violations in Front Royal VA', description: 'Code violations on your Front Royal property do not block a sale. Dan White walks you through every option. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-code-violations-front-royal-va' },
+  openGraph: { title: 'Sell a House With Code Violations | Front Royal, VA', description: 'Code violations on your Front Royal property do not block a sale. Dan White walks you through every option. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-code-violations-front-royal-va' },
 };
 
 export default async function FrontRoyalCodeViolationsPage() {

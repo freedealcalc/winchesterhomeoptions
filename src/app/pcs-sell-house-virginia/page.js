@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling Your House for a PCS Move in Virginia | Every Option Explained',
-  description: 'PCS orders in Virginia? Sell your home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — cash sale, as-is listing, and more — on your military timeline. Free consultation.',
+  title: 'PCS Orders in Virginia? Sell Fast, Every Option',
+  description: 'PCS orders in Virginia? Licensed agent Dan White covers every option to sell fast for the most money on your military timeline. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/pcs-sell-house-virginia' },
   openGraph: {
     title: 'Selling Your House for a PCS Move in Virginia',

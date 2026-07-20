@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling Your House to Relocate from Winchester VA | Every Option Explained',
-  description: 'Sell your Winchester home fast and walk away with the most money your situation allows before you relocate. Licensed Virginia agent Dan White goes over every option so you close on your timeline. Free consultation, no pressure.',
+  title: 'Relocating from Winchester VA? Sell Fast, Every Option',
+  description: 'Relocating from Winchester VA? Dan White, licensed agent, covers every option to sell fast for top dollar on your timeline. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-relocating-winchester-va' },
   openGraph: {
     title: 'Selling Your House to Relocate from Winchester VA',

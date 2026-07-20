@@ -5,7 +5,7 @@ export const revalidate = 2592000;
 
 export const metadata = {
   title: 'Sell Your House Fast for PCS in Winchester VA | Every Option',
-  description: 'PCS orders out of Winchester? Sell your home fast and walk away with the most money your timeline allows. Licensed Virginia agent Dan White goes over every option. Free consultation, no pressure.',
+  description: 'PCS orders out of Winchester? Sell fast for the most money your timeline allows. Dan White covers every option. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-pcs-winchester-va' },
   openGraph: {
     title: 'Sell Your House Fast for PCS in Winchester VA',

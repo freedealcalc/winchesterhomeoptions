@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a House with Tax Liens in Winchester VA | Every Option Explained',
-  description: 'Sell your Winchester home fast with tax liens and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — liens get resolved at closing. Free consultation, no pressure.',
+  title: 'Sell a House with Tax Liens in Winchester VA',
+  description: 'Sell your Winchester home fast even with tax liens. Licensed VA agent Dan White explains every option — liens resolve at closing. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-tax-lien-winchester-va' },
   openGraph: {
     title: 'Sell a House with Tax Liens in Winchester VA',

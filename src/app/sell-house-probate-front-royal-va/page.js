@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a House in Probate in Front Royal VA | Every Option Explained',
-  description: 'Sell your Front Royal probate home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option so the estate gets the best outcome. Free consultation, no pressure.',
+  title: 'Selling a Probate House in Front Royal VA',
+  description: 'Sell a Front Royal probate home for the most money. Licensed VA agent Dan White reviews every option for the estate. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-probate-front-royal-va' },
   openGraph: {
     title: 'Selling a House in Probate in Front Royal VA',

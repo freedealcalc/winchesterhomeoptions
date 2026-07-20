@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a House with Mold in Front Royal VA | Every Option Explained',
-  description: 'Sell your Front Royal home fast even with mold and walk away with the most money your situation allows. Dan White goes over every option — mold does not have to block your sale. Free consultation, no pressure.',
+  title: 'Mold in Your Front Royal VA Home? You Still Have Options',
+  description: 'Mold in your Front Royal VA home? Licensed agent Dan White covers every option — mold won\'t block your sale. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-mold-front-royal-va' },
   openGraph: { title: 'Sell a House with Mold in Front Royal VA', description: 'Mold in your Front Royal home? Dan White walks you through every option — including buyers who purchase as-is. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-mold-front-royal-va' },
 };

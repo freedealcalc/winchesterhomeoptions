@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Winchester Virginia Housing Market 2026 | Live Data for Sellers',
-  description: 'What is the Winchester VA housing market doing in 2026? Licensed agent Dan White provides live Frederick County market data and explains what it means for sellers right now. Free consultation.',
+  title: 'Winchester VA Housing Market 2026 | Live Seller Data',
+  description: 'How\'s the Winchester VA housing market in 2026? Dan White shares live Frederick County data and what it means for sellers. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/winchester-virginia-housing-market-2026' },
   openGraph: { title: 'Winchester Virginia Housing Market 2026 | Live Data for Sellers', description: 'Live Winchester VA housing market data for 2026 — what it means if you are thinking of selling. Dan White explains. Free consultation.', url: 'https://www.winchesterhomeoptions.com/winchester-virginia-housing-market-2026' },
 };

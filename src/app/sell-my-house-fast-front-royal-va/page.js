@@ -4,12 +4,12 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House Fast in Front Royal VA | Every Option, Honest Advice',
-  description: 'Sell your Front Royal home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — cash sale, as-is listing, wholetail, and more — so you make the right call. Free consultation, no pressure.',
+  title: 'Sell My House Fast in Front Royal VA | Every Option',
+  description: 'Sell your Front Royal home fast for the most money. Licensed VA agent Dan White covers every option — cash, as-is listing, and more. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-my-house-fast-front-royal-va' },
   openGraph: {
-    title: 'Sell My House Fast in Front Royal VA | Every Option, Honest Advice',
-    description: 'Sell your Front Royal home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option so you make the right call. Free, no-pressure consultation.',
+    title: 'Sell My House Fast in Front Royal VA | Every Option',
+    description: 'Sell your Front Royal home fast for the most money. Licensed Virginia agent Dan White goes over every option so you make the right call. Free, no-pressure consultation.',
     url: 'https://www.winchesterhomeoptions.com/sell-my-house-fast-front-royal-va',
   },
 };

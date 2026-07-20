@@ -4,11 +4,11 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a House with Mold in Winchester VA | Every Option Explained',
-  description: 'Sell your Winchester home fast even with mold and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — mold does not have to block your sale. Free consultation, no pressure.',
+  title: 'Sell a House With Mold in Winchester, VA | Dan White',
+  description: 'Mold does not have to block your Winchester sale. Licensed agent Dan White reviews every option so you get the most money. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-mold-winchester-va' },
   openGraph: {
-    title: 'Sell a House with Mold in Winchester VA',
+    title: 'Sell a House With Mold in Winchester, VA | Dan White',
     description: 'Mold in your Winchester home does not have to derail the sale. Dan White walks you through every option — including buyers who purchase as-is. Free consultation.',
     url: 'https://www.winchesterhomeoptions.com/sell-house-mold-winchester-va',
   },

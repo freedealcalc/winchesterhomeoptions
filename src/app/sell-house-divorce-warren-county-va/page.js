@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a House During Divorce in Warren County VA | Every Option Explained',
-  description: 'Sell your Warren County home fast during divorce and walk away with the most money your situation allows. Licensed Virginia agent Dan White works with both parties for a fair outcome. Free consultation, no pressure.',
+  title: 'Selling a House During Divorce in Warren County VA',
+  description: 'Selling a house during divorce in Warren County VA? Dan White, licensed agent, works with both parties for a fair, fast outcome. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-divorce-warren-county-va' },
   openGraph: { title: 'Selling a House During Divorce in Warren County VA', description: 'Selling a home during divorce in Warren County? Dan White handles the transaction professionally. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-divorce-warren-county-va' },
 };

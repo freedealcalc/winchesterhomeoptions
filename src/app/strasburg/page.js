@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House in Strasburg VA | Shenandoah Valley Home Options',
-  description: 'Selling a house in Strasburg VA? Dan White covers every option — cash sale, as-is listing, wholetail. Shenandoah Valley specialist. Free consultation, no pressure.',
+  title: 'Sell My House in Strasburg VA | Shenandoah Options',
+  description: 'Selling a house in Strasburg VA? Dan White covers every option — cash sale, as-is listing, and more. Free consultation, no pressure.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/strasburg' },
   openGraph: {
     title: 'Sell My House in Strasburg VA | Shenandoah Valley Home Options',

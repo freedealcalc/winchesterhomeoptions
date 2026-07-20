@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell Your House Before Foreclosure in Stephens City VA | Stop the Clock',
-  description: 'Sell your Stephens City home fast and walk away with the most money your situation allows — even facing foreclosure. Licensed Virginia agent Dan White goes over every option so you protect your credit and your equity. Free consultation, no pressure.',
+  title: 'Sell Before Foreclosure in Stephens City VA | Stop the Clock',
+  description: 'Facing foreclosure in Stephens City? Licensed agent Dan White covers every option to sell fast, protect your credit and equity. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-foreclosure-stephens-city-va' },
   openGraph: {
     title: 'Sell Your House Before Foreclosure in Stephens City VA',

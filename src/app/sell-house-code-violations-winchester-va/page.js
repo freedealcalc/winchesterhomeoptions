@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a House with Code Violations in Winchester VA | Every Option Explained',
-  description: 'Sell your Winchester home fast with code violations and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — you do not have to fix violations to sell. Free consultation, no pressure.',
+  title: 'Code Violations in Winchester VA? You Can Still Sell',
+  description: 'Code violations on your Winchester VA home? Licensed agent Dan White covers every option — no fixes required to sell. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-code-violations-winchester-va' },
   openGraph: {
     title: 'Sell a House with Code Violations in Winchester VA',

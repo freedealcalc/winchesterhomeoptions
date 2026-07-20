@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House in Stephens City VA | Frederick County Home Options',
-  description: 'Selling a house in Stephens City VA? Dan White covers every option — cash sale, as-is listing, wholetail. Frederick County specialist. Free consultation, no pressure.',
+  title: 'Sell My House in Stephens City VA | Frederick County',
+  description: 'Selling in Stephens City VA? Dan White covers every option — cash, as-is, wholetail. Frederick County specialist. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/stephens-city' },
   openGraph: {
     title: 'Sell My House in Stephens City VA | Frederick County Home Options',

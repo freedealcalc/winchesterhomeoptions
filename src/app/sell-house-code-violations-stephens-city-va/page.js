@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a House with Code Violations in Stephens City VA | Every Option',
-  description: 'Sell your Stephens City home fast with code violations and walk away with the most money your situation allows. Dan White goes over every option — no repairs required. Free consultation, no pressure.',
+  title: 'Code Violations in Stephens City VA? You Can Still Sell',
+  description: 'Code violations on your Stephens City VA home? Dan White, licensed agent, covers every option — no repairs required. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-code-violations-stephens-city-va' },
   openGraph: { title: 'Sell a House with Code Violations in Stephens City VA', description: 'Code violations on your Stephens City property? Dan White walks you through every option. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-code-violations-stephens-city-va' },
 };

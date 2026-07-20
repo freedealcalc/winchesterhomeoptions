@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House Behind on Payments in Berryville VA | Stop the Damage',
-  description: 'Sell your Berryville home fast and walk away with the most money your situation allows — even if you are behind on payments. Dan White goes over every option before foreclosure closes the door. Free consultation, no pressure.',
+  title: 'Behind on Payments in Berryville VA? Sell Fast',
+  description: 'Behind on payments in Berryville? Licensed VA agent Dan White reviews every option to stop the damage and sell fast. Free, no-pressure consult.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-behind-payments-berryville-va' },
   openGraph: { title: 'Sell My House Behind on Payments in Berryville VA', description: 'Behind on payments in Berryville? You still have options. Dan White walks you through every path. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-behind-payments-berryville-va' },
 };

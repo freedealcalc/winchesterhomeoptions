@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House Fast in Clarke County VA | Every Option, Honest Advice',
-  description: 'Sell your Clarke County home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — cash sale, as-is listing, wholetail, and more — so you make the right call. Free consultation, no pressure.',
+  title: 'Sell My House Fast in Clarke County VA | Every Option',
+  description: 'Sell your Clarke County home fast for the most money. Dan White covers every option — cash sale, as-is listing, wholetail. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-my-house-fast-clarke-county-va' },
   openGraph: {
     title: 'Sell My House Fast in Clarke County VA | Every Option, Honest Advice',

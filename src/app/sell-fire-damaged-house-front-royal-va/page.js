@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a Fire Damaged House in Front Royal VA | As-Is, No Repairs',
-  description: 'Sell your fire damaged Front Royal home fast and walk away with the most money your situation allows. Dan White connects you with buyers who purchase fire damaged properties as-is. Free consultation, no pressure.',
+  title: 'Sell a Fire Damaged House in Front Royal VA',
+  description: 'Sell your fire damaged Front Royal home fast, as-is. Dan White connects you with buyers who purchase fire damaged homes. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-fire-damaged-house-front-royal-va' },
   openGraph: { title: 'Sell a Fire Damaged House in Front Royal VA', description: 'Fire damaged home in Front Royal? Buyers who purchase as-is — no repairs, no cleanup. Dan White walks you through every option. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-fire-damaged-house-front-royal-va' },
 };

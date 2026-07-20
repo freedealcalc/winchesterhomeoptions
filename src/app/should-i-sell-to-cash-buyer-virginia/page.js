@@ -4,7 +4,7 @@ export const revalidate = 2592000;
 
 export const metadata = {
   title: 'Should I Sell to a Cash Buyer in Virginia? Honest Answer',
-  description: 'Wondering if a cash buyer is the right move for your Virginia home? Licensed agent Dan White gives you the honest answer — when cash makes sense and when you are leaving money on the table. Free consultation.',
+  description: 'Wondering if a cash buyer is right for your Virginia home? Licensed agent Dan White gives the honest answer, when cash works and when it does not.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/should-i-sell-to-cash-buyer-virginia' },
   openGraph: {
     title: 'Should I Sell to a Cash Buyer in Virginia?',

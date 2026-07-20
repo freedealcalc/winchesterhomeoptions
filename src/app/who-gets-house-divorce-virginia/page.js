@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Who Gets the House in a Divorce in Virginia? What the Law Says',
-  description: 'Divorcing in Virginia and wondering who keeps the house? Licensed agent Dan White explains Virginia equitable distribution law, the options for the marital home, and how to get the most money either way. Free consultation.',
+  title: 'Who Gets the House in a Virginia Divorce? Your Options',
+  description: 'Divorcing in Virginia? Licensed agent Dan White explains equitable distribution law and your options for the marital home. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/who-gets-house-divorce-virginia' },
   openGraph: {
     title: 'Who Gets the House in a Divorce in Virginia?',

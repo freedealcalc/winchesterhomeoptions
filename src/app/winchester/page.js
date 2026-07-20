@@ -5,7 +5,7 @@ export const revalidate = 2592000;
 
 export const metadata = {
   title: 'Sell My House in Winchester VA | Every Option, Honest Advice',
-  description: 'Selling a house in Winchester VA? Dan White covers every option — cash sale, as-is listing, wholetail, and more. Licensed Frederick County agent with 20+ years experience. Free consultation, no pressure.',
+  description: 'Selling in Winchester VA? Dan White covers every option, cash sale, as-is listing, wholetail. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/winchester' },
   openGraph: {
     title: 'Sell My House in Winchester VA | Every Option, Honest Advice',

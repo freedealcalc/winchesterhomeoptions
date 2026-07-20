@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a Parent\'s Home to Pay for Care in Virginia | Every Option',
-  description: 'Selling a parent\'s home in Virginia to fund elder care or a nursing facility? Licensed agent Dan White explains every option — fast sale, as-is, and more — so your family walks away with the most money. Free consultation.',
+  title: 'Selling a Parent’s Home to Pay for Care in VA',
+  description: 'Selling a parent\'s Virginia home to fund elder care? Licensed agent Dan White explains every option so your family nets the most money. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/selling-parents-home-for-care-virginia' },
   openGraph: {
     title: 'Selling a Parent\'s Home to Pay for Care in Virginia',

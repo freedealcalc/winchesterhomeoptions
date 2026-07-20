@@ -4,11 +4,11 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling Your House to Relocate from Front Royal VA | Every Option Explained',
-  description: 'Sell your Front Royal home fast and walk away with the most money your situation allows before you relocate. Dan White goes over every option so you close on your timeline. Free consultation, no pressure.',
+  title: 'Selling to Relocate From Front Royal, VA | Dan White',
+  description: 'Relocating from Front Royal? Dan White reviews every option so you close on your timeline and get the most money. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-relocating-front-royal-va' },
   openGraph: {
-    title: 'Selling Your House to Relocate from Front Royal VA',
+    title: 'Selling to Relocate From Front Royal, VA | Dan White',
     description: 'Relocating from Front Royal? Dan White walks you through every option so you close on your timeline. Free consultation.',
     url: 'https://www.winchesterhomeoptions.com/sell-house-relocating-front-royal-va',
   },

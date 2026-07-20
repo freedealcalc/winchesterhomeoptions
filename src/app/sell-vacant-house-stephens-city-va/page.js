@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a Vacant House in Stephens City VA | Stop the Drain, Get the Most Money',
-  description: 'Sell your vacant Stephens City home fast and walk away with the most money your situation allows. Dan White goes over every option — no cleanup required. Free consultation, no pressure.',
+  title: 'Sell a Vacant House in Stephens City VA | Stop the Drain',
+  description: 'Sell your vacant Stephens City home fast for the most money. Dan White covers every option — no cleanup required. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-vacant-house-stephens-city-va' },
   openGraph: { title: 'Sell a Vacant House in Stephens City VA', description: 'Vacant property in Stephens City? Dan White gets it sold fast for the most money. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-vacant-house-stephens-city-va' },
 };

@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'What Is a Cash Offer on a House in Virginia? Honest Explanation',
-  description: 'Got a cash offer on your Virginia home and not sure what it means? Licensed agent Dan White explains what a cash offer actually is, what to watch for, and whether you should accept it. Free consultation.',
+  title: 'What Is a Cash Offer on a House in Virginia?',
+  description: 'Got a cash offer on your Virginia home? Licensed agent Dan White explains what it means, what to watch for, and if you should accept. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/what-is-a-cash-offer-virginia' },
   openGraph: {
     title: 'What Is a Cash Offer on a House in Virginia?',

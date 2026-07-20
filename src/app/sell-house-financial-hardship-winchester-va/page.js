@@ -4,11 +4,11 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House in Financial Hardship in Winchester VA | Every Option',
-  description: 'Sell your Winchester home fast during financial hardship and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option with no judgment. Free consultation, no pressure.',
+  title: 'Selling Your House in Financial Hardship | Winchester VA',
+  description: 'Facing financial hardship in Winchester? Dan White, licensed VA agent, reviews every option with no judgment. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-financial-hardship-winchester-va' },
   openGraph: {
-    title: 'Sell My House in Financial Hardship in Winchester VA',
+    title: 'Selling Your House in Financial Hardship | Winchester VA',
     description: 'Financial hardship in Winchester? Dan White goes over every option — honestly, without judgment. Free consultation, no pressure.',
     url: 'https://www.winchesterhomeoptions.com/sell-house-financial-hardship-winchester-va',
   },

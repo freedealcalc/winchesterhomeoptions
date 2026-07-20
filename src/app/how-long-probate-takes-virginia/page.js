@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'How Long Does Probate Take in Virginia? Full Timeline for Home Sales',
-  description: 'Wondering how long probate takes in Virginia before you can sell a home? Licensed agent Dan White explains the full timeline and how to sell an estate property during probate — not just after. Free consultation.',
+  title: 'How Long Does Probate Take in Virginia? Full Timeline',
+  description: 'How long does Virginia probate take before you can sell? Licensed agent Dan White explains the timeline and options to sell early. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/how-long-probate-takes-virginia' },
   openGraph: {
     title: 'How Long Does Probate Take in Virginia?',

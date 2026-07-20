@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell Your House Before Foreclosure in Berryville VA | Stop the Clock',
-  description: 'Sell your Berryville home fast and walk away with the most money your situation allows — even facing foreclosure. Dan White goes over every option so you protect your credit and equity. Free consultation, no pressure.',
+  title: 'Sell Your House Before Foreclosure in Berryville VA',
+  description: 'Facing foreclosure in Berryville? Dan White, licensed VA agent, reviews every option to protect your credit and sell fast. Free, no-pressure consult.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-foreclosure-berryville-va' },
   openGraph: {
     title: 'Sell Your House Before Foreclosure in Berryville VA',

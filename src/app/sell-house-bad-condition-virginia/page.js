@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a House in Bad Condition in Virginia | Every Option Explained',
-  description: 'Selling a Virginia home in bad condition? Licensed agent Dan White explains every option — and how to walk away with the most money without spending a dollar on repairs. Free consultation, no pressure.',
+  title: 'Selling a House in Bad Condition in Virginia',
+  description: 'Selling a Virginia home in bad condition? Licensed agent Dan White explains every option to get the most money, no repairs needed. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-bad-condition-virginia' },
   openGraph: {
     title: 'Selling a House in Bad Condition in Virginia',

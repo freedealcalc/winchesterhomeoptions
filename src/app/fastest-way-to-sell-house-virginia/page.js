@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Fastest Way to Sell a House in Virginia | Every Speed Option Explained',
-  description: 'Need to sell your Virginia home fast? Licensed agent Dan White explains every option — from 7-day cash sales to fast MLS listings — and how to walk away with the most money your timeline allows. Free consultation.',
+  title: 'Fastest Way to Sell a House in Virginia | Every Option',
+  description: 'Need to sell your Virginia home fast? Dan White explains every speed option — cash sale to MLS — and how to get the most money. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/fastest-way-to-sell-house-virginia' },
   openGraph: {
     title: 'Fastest Way to Sell a House in Virginia',

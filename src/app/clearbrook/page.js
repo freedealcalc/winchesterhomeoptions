@@ -4,11 +4,11 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell My House in Clearbrook VA | Frederick County Home Options',
-  description: 'Selling a house in Clearbrook VA? Dan White covers every option for Frederick County homeowners — cash sale, as-is listing, and more. Free consultation, no pressure.',
+  title: 'Sell My House in Clearbrook VA | Frederick County',
+  description: 'Selling in Clearbrook VA? Dan White, licensed Frederick County agent, covers every option, cash sale, as-is listing, and more. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/clearbrook' },
   openGraph: {
-    title: 'Sell My House in Clearbrook VA | Frederick County Home Options',
+    title: 'Sell My House in Clearbrook VA | Frederick County',
     description: 'Know every option before selling your Clearbrook home. Free consultation with Dan White.',
     url: 'https://www.winchesterhomeoptions.com/clearbrook',
   },

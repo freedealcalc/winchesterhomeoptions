@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling Your House to Relocate from Berryville VA | Every Option Explained',
-  description: 'Sell your Berryville home fast and walk away with the most money your situation allows before you relocate. Dan White goes over every option so you close on your timeline. Free consultation, no pressure.',
+  title: 'Relocating from Berryville VA? Sell Fast, Every Option',
+  description: 'Relocating from Berryville VA? Dan White covers every option to sell fast for the most money on your timeline. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-relocating-berryville-va' },
   openGraph: { title: 'Selling Your House to Relocate from Berryville VA', description: 'Relocating from Berryville? Dan White walks you through every option so you close on your timeline. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-relocating-berryville-va' },
 };

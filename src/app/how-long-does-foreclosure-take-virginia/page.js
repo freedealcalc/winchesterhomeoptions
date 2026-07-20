@@ -3,8 +3,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'How Long Does Foreclosure Take in Virginia? Full Timeline Explained',
-  description: 'Wondering how long foreclosure takes in Virginia? Licensed agent Dan White explains the full Virginia foreclosure timeline — and every option to sell your home before it happens. Free consultation.',
+  title: 'How Long Does Foreclosure Take in Virginia? Timeline',
+  description: 'How long does foreclosure take in Virginia? Licensed agent Dan White explains the timeline and every option to sell before it happens. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/how-long-does-foreclosure-take-virginia' },
   openGraph: {
     title: 'How Long Does Foreclosure Take in Virginia?',

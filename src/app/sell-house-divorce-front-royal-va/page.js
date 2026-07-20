@@ -4,11 +4,11 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a House During Divorce in Front Royal VA | Every Option Explained',
-  description: 'Sell your Front Royal home fast during divorce and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option so both parties get a fair outcome. Free consultation, no pressure.',
+  title: 'Selling a House During Divorce in Front Royal, VA',
+  description: 'Selling during divorce in Front Royal? Dan White, licensed VA agent, reviews every option so both parties get a fair outcome. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-divorce-front-royal-va' },
   openGraph: {
-    title: 'Selling a House During Divorce in Front Royal VA',
+    title: 'Selling a House During Divorce in Front Royal, VA',
     description: 'Selling a home during divorce in Front Royal? Dan White handles the transaction so both parties walk away with the most money possible. Free consultation.',
     url: 'https://www.winchesterhomeoptions.com/sell-house-divorce-front-royal-va',
   },

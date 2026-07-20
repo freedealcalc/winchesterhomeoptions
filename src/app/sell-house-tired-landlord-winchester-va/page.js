@@ -4,11 +4,11 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a Rental Property in Winchester VA | Tired Landlord Options',
-  description: 'Sell your Winchester rental property fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option — with tenants in place or vacant. Free consultation, no pressure.',
+  title: 'Sell Your Winchester Rental Property | Tired Landlord?',
+  description: 'Done being a landlord in Winchester? Dan White covers every exit option, tenants in place or vacant. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-tired-landlord-winchester-va' },
   openGraph: {
-    title: 'Sell a Rental Property in Winchester VA | Tired Landlord Options',
+    title: 'Sell Your Winchester Rental Property | Tired Landlord?',
     description: 'Done being a landlord in Winchester? Dan White walks you through every exit option — tenants in place, vacant, or anything in between. Free consultation.',
     url: 'https://www.winchesterhomeoptions.com/sell-house-tired-landlord-winchester-va',
   },

@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'We Buy Houses Front Royal VA | Every Option, Not Just One Cash Offer',
-  description: 'Looking for cash home buyers in Front Royal VA? Sell your home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option. Free consultation, no pressure.',
+  title: 'We Buy Houses in Front Royal, VA | Every Option',
+  description: 'Cash home buyers in Front Royal? Licensed agent Dan White connects you with competing buyers and shows every option. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/we-buy-houses-front-royal-va' },
   openGraph: { title: 'We Buy Houses Front Royal VA | Every Option, Not Just One Offer', description: 'Cash buyers in Front Royal VA? Dan White connects you with competing investors and shows you every option. Free consultation.', url: 'https://www.winchesterhomeoptions.com/we-buy-houses-front-royal-va' },
 };

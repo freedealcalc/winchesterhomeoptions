@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Cash Home Buyers in Winchester VA | Get the Most Money, Not Just a Fast Offer',
-  description: 'Looking for cash home buyers in Winchester VA? Sell your Winchester home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White puts your property in front of competing buyers. Free consultation, no pressure.',
+  title: 'Cash Home Buyers in Winchester VA | Get the Most Money',
+  description: 'Cash home buyers in Winchester VA? Dan White puts your property in front of competing buyers for the most money. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/cash-home-buyers-winchester-va' },
   openGraph: { title: 'Cash Home Buyers in Winchester VA | Get the Most Money', description: 'Cash home buyers in Winchester VA — Dan White connects you with competing investors so you get the best number, not just the fastest offer. Free consultation.', url: 'https://www.winchesterhomeoptions.com/cash-home-buyers-winchester-va' },
 };

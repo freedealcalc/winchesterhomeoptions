@@ -5,7 +5,7 @@ export const revalidate = 2592000;
 
 export const metadata = {
   title: 'Sell My House in Clarke County VA | Berryville Home Options',
-  description: 'Selling a house in Clarke County VA? Dan White covers every option for Berryville and Clarke County homeowners — cash sale, as-is listing, and more. Free consultation.',
+  description: 'Selling a house in Clarke County VA? Dan White covers every option for Berryville homeowners — cash sale, as-is listing, and more. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/clarke-county' },
   openGraph: {
     title: 'Sell My House in Clarke County VA | Berryville Home Options',

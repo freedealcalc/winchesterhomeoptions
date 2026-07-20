@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'We Buy Houses Stephens City VA | Every Option, Not Just One Cash Offer',
-  description: 'Looking for cash home buyers in Stephens City VA? Sell your home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option. Free consultation, no pressure.',
+  title: 'We Buy Houses Stephens City VA | All Options',
+  description: 'Looking for cash buyers in Stephens City VA? Licensed VA agent Dan White reviews every option to sell fast for the most money. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/we-buy-houses-stephens-city-va' },
   openGraph: { title: 'We Buy Houses Stephens City VA | Every Option, Not Just One Offer', description: 'Cash buyers in Stephens City VA? Dan White connects you with competing investors and shows you every option. Free consultation.', url: 'https://www.winchesterhomeoptions.com/we-buy-houses-stephens-city-va' },
 };

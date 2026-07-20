@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Sell a House with Tax Liens in Stephens City VA | Every Option',
-  description: 'Sell your Stephens City home fast with tax liens and walk away with the most money your situation allows. Dan White goes over every option — liens resolve at closing. Free consultation, no pressure.',
+  title: 'Sell a House with Tax Liens in Stephens City VA',
+  description: 'Tax liens on your Stephens City home? Licensed agent Dan White covers every option — liens resolve at closing. Free, no-pressure consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-tax-lien-stephens-city-va' },
   openGraph: { title: 'Sell a House with Tax Liens in Stephens City VA', description: 'Tax liens on your Stephens City home? Dan White walks you through every option. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-tax-lien-stephens-city-va' },
 };

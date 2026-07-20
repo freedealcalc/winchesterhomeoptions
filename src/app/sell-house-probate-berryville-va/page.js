@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling a House in Probate in Berryville VA | Every Option Explained',
-  description: 'Sell your Berryville probate home fast and walk away with the most money your situation allows. Licensed Virginia agent Dan White goes over every option so the estate gets the best outcome. Free consultation, no pressure.',
+  title: 'Selling a House in Probate in Berryville, VA',
+  description: 'Probate home sale in Berryville? Licensed agent Dan White covers every option for the best estate outcome. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-probate-berryville-va' },
   openGraph: { title: 'Selling a House in Probate in Berryville VA', description: 'Navigating probate in Berryville? Dan White walks you through every option — and which one gets the estate the most money. Free consultation.', url: 'https://www.winchesterhomeoptions.com/sell-house-probate-berryville-va' },
 };

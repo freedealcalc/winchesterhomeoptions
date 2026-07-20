@@ -4,8 +4,8 @@ import ContentPage from '../../components/ContentPage';
 export const revalidate = 2592000;
 
 export const metadata = {
-  title: 'Selling Your House to Relocate from Stephens City VA | Every Option Explained',
-  description: 'Sell your Stephens City home fast and walk away with the most money your situation allows before you relocate. Dan White goes over every option so you close on your timeline. Free consultation, no pressure.',
+  title: 'Selling Your House to Relocate from Stephens City VA',
+  description: 'Relocating from Stephens City? Sell fast for the most money. Licensed agent Dan White covers every option so you close on your timeline. Free consultation.',
   alternates: { canonical: 'https://www.winchesterhomeoptions.com/sell-house-relocating-stephens-city-va' },
   openGraph: {
     title: 'Selling Your House to Relocate from Stephens City VA',
