@@ -30,6 +30,13 @@ export default async function StephensCityPage() {
       'Cash buyers compete — you keep the difference',
       'Any condition · Close in 7 days or 90 · Your call',
     ],
+    bodyContent: `
+      <h2>Selling As-Is in Stephens City — Skip the Repairs and the Wait</h2>
+      <p>A cash or as-is sale means your home sells the way it looks today — no repainting, no repairs, no weekends spent staging for showings. That's the practical difference from a traditional listing, where an inspection or appraisal can send you back to the table negotiating over things you weren't planning to fix.</p>
+      <p>It also changes how much certainty you have going into closing. A financed buyer can fall through late in the process over a loan denial or appraisal gap. A cash sale removes that risk, and you agree to a closing date that works for your situation, whether that's a week out or several months.</p>
+      <h2>One of the Valley's Oldest Towns</h2>
+      <p>Stephens City is one of the older towns in the Shenandoah Valley, founded in 1758 and originally known as Newtown. It sits along Route 11 in Frederick County just south of Winchester, and its long history is reflected in a mix of historic homes near the town's center alongside newer subdivisions that have grown up around it.</p>
+    `,
     faqs: [
       {
         q: 'Is Stephens City a good market to sell in right now?',

@@ -30,6 +30,13 @@ export default async function FrederickCountyHubPage() {
       'Access to thousands of cash buyers — they compete, you win',
       'Any condition · Any situation · No judgment',
     ],
+    bodyContent: `
+      <h2>One Agent, Every Corner of Frederick County</h2>
+      <p>Frederick County covers a lot of ground — from the edge of Winchester out to Gore and Cross Junction — and Dan White has worked all of it as a licensed Virginia agent for more than 20 years. The goal on every call is the same: lay out the cash-sale, as-is-listing, and wholetail numbers side by side so a homeowner can pick the path that actually fits their situation, not just the fastest one.</p>
+      <p>That approach works the same whether someone is dealing with foreclosure, probate, a tired rental property, or simply a straightforward move — every seller gets the same honest look at their options.</p>
+      <h2>Frederick County Surrounds an Independent City</h2>
+      <p>Frederick County wraps around Winchester, which is legally an independent city and not part of the county itself — a distinction that surprises some newcomers but matters for where taxes, schools, and permits are handled. The county itself runs along the I-81 corridor and includes Stephens City, Clearbrook, Middletown, Gore, and Cross Junction, giving it a mix of small-town centers and open farmland within a short drive of Winchester's job base.</p>
+    `,
     faqs: [
       {
         q: 'What cities and towns in Frederick County do you cover?',

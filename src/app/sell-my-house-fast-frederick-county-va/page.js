@@ -30,6 +30,13 @@ export default async function FrederickCountyPage() {
       'Primary market — Winchester to Stephens City to Middletown',
       'Any condition · Any situation · Free consultation',
     ],
+    bodyContent: `
+      <h2>Selling Fast and As-Is Anywhere in Frederick County</h2>
+      <p>Whether your property is in Stephens City, Clearbrook, Middletown, or one of the smaller communities in between, a cash or as-is sale works the same way — the home sells in its current condition, with no repair list, no repainting, and no need to clear it out before showings. That's the core difference from a traditional MLS listing, where an appraisal or inspection can reopen negotiations over things you didn't plan to fix.</p>
+      <p>The other advantage is certainty around timing. A financed buyer on the open market still has to clear a loan and an appraisal before the deal is final, and either one can delay or unravel a closing. A cash sale removes that risk entirely and lets you set a closing date that fits your situation — fast if you need it, or further out if you need time.</p>
+      <h2>A Shenandoah Valley County With Deep Agricultural Roots</h2>
+      <p>Frederick County surrounds the independent city of Winchester and stretches along the I-81 corridor through towns like Stephens City, Clearbrook, and Middletown. The county has long been known for its apple orchards, and that agricultural history still shows up in the mix of rural acreage, older farmhouses, and newer residential development that make up its housing stock today.</p>
+    `,
     faqs: [
       {
         q: 'What areas of Frederick County do you serve?',

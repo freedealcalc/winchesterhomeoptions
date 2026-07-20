@@ -30,6 +30,12 @@ export default async function ClarkeCountyHubPage() {
       'Access to thousands of cash buyers — they compete, you win',
       'Any condition · Any situation · No judgment',
     ],
+    bodyContent: `
+      <h2>One Licensed Agent for All of Clarke County</h2>
+      <p>Dan White is a licensed Virginia real estate agent who has spent over 20 years working the Shenandoah Valley, including Clarke County. Homeowners here get the same honest comparison of cash sale, as-is listing, and wholetail options as anywhere else in his service area — with the numbers laid out before any decision is made, whether the sale is straightforward or complicated by probate, liens, or a property that needs work.</p>
+      <h2>Clarke County in the Blue Ridge Foothills</h2>
+      <p>Clarke County, seated in Berryville, is one of the smallest and most rural counties in the northern Shenandoah Valley, sitting in the foothills of the Blue Ridge Mountains along the Shenandoah River. Its agricultural character and smaller inventory of homes set it apart from neighboring Frederick and Warren Counties, drawing buyers who specifically want quieter, more rural living within reach of Northern Virginia.</p>
+    `,
     faqs: [
       {
         q: 'What areas of Clarke County do you cover?',

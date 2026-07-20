@@ -30,6 +30,12 @@ export default async function StephensCityHubPage() {
       'Access to thousands of cash buyers — they compete, you win',
       'Any condition · Any situation · No judgment',
     ],
+    bodyContent: `
+      <h2>Direct Access to a Licensed Agent, Not a Script</h2>
+      <p>Stephens City homeowners deal directly with Dan White, a licensed Virginia agent with 20+ years of Frederick County experience. He walks through each property's condition and the seller's specific situation — whether that's a standard sale, an inherited home, or a mortgage that's fallen behind — before laying out what a cash sale, an as-is listing, or a wholetail sale would each realistically net.</p>
+      <h2>Stephens City's Long History in Frederick County</h2>
+      <p>Stephens City is one of the oldest towns in the Shenandoah Valley, founded in 1758 by Lewis Stephens under the original name Newtown before later taking his family's name. It sits along Route 11 in Frederick County at the crossroads with Route 277, which has kept it a steady, well-connected small town even as growth has pushed south from Winchester.</p>
+    `,
     faqs: [
       {
         q: 'What options do I have to sell my Stephens City home?',

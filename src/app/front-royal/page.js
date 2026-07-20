@@ -30,6 +30,13 @@ export default async function FrontRoyalHubPage() {
       'Access to thousands of cash buyers — they compete, you win',
       'Any condition · Any situation · No judgment',
     ],
+    bodyContent: `
+      <h2>A Local, Licensed Agent for Front Royal Sellers</h2>
+      <p>Front Royal Home Options is run by Dan White, a licensed Virginia real estate agent with Pearson Smith Realty who has spent more than two decades working properties throughout Warren County. Whether a Front Royal home needs to sell quickly because of a life change or simply needs a straightforward, well-marketed listing, he walks sellers through the realistic paths open to them — cash sale, as-is listing, or something in between — before any decision gets made.</p>
+      <p>That includes distressed situations like pre-foreclosure, inherited property, and tax liens, but also the more ordinary reason most people sell: they're ready to move on and want a fair number without a drawn-out process.</p>
+      <h2>Front Royal's Place in the Shenandoah Valley</h2>
+      <p>Front Royal is the county seat of Warren County and sits where the North and South Forks of the Shenandoah River come together before continuing north — a geography that also earned the town its long-standing nickname as the "Canoe Capital of Virginia." It also marks the northern entrance to Skyline Drive and Shenandoah National Park, which brings a steady stream of visitors and second-home buyers into the local market alongside commuters using the I-66 corridor toward Northern Virginia.</p>
+    `,
     faqs: [
       {
         q: 'What are my options for selling my Front Royal home?',

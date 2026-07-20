@@ -30,6 +30,14 @@ export default async function WinchesterCodeViolationsPage() {
       'Cash buyers purchase code-violation properties as-is',
       'Free consultation · Confidential · No pressure',
     ],
+    bodyContent: `
+      <h2>Winchester's Code Enforcement Process — and Why It Doesn't Block a Sale</h2>
+      <p>As an independent city, Winchester runs its own code enforcement program separate from Frederick County, with the authority to inspect properties and issue notices for unpermitted work, unsafe conditions, or other property-maintenance violations. If a notice sits unresolved, the city can escalate to fines and, in some cases, a lien recorded against the property.</p>
+      <p>None of that stops a sale. Investors who buy in the City of Winchester regularly take on properties with open violations, pricing the eventual repair into their offer instead of requiring you to fix anything first. That's often the fastest way to stop new fines from piling up — the repair burden moves to the buyer the day the sale closes.</p>
+      <h2>Confirming What's Actually Owed Before You List</h2>
+      <p>Because the specific violation type, fine amount, and lien status live in the City of Winchester's own code enforcement records, that office is the source to check directly rather than guessing from the notice alone. I can help you track down exactly what's outstanding so we price the sale with real numbers.</p>
+      <p style="font-style: italic; color: #8a8a8a; font-size: 0.85rem;">This is general information about code enforcement in Virginia, not legal advice for your specific notice or violation. Confirm the exact violation and any fine or lien amount directly with the City of Winchester's code enforcement office before listing or accepting an offer.</p>
+    `,
     faqs: [
       { q: 'Can I sell a Winchester home that has open code violations?', a: 'Yes — particularly to cash buyers and investors. These buyers purchase properties knowing violations exist and handle remediation after closing. Traditional buyers using financing may face hurdles, which is why cash buyers are often the right path for this situation.' },
       { q: 'Do I have to fix code violations before selling in Winchester?', a: 'Not with cash buyers. With traditional buyers on the MLS, lenders sometimes require violations to be resolved before they fund the loan. I help you figure out which buyer pool makes the most sense for your specific violation situation.' },

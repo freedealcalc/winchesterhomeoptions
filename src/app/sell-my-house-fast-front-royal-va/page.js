@@ -30,6 +30,13 @@ export default async function FrontRoyalPage() {
       'Any condition — no repairs, no cleanout required',
       'Close in 7 days or on your timeline · No pressure',
     ],
+    bodyContent: `
+      <h2>Selling Fast in Front Royal Without the Usual Contingencies</h2>
+      <p>A cash or as-is sale in Front Royal removes the two things that most often slow down or derail a traditional sale: repairs and financing. The home sells in its current condition, so there's no punch list to work through before closing, and there's no lender who can pull financing out from under you late in the process.</p>
+      <p>It also puts you in control of the calendar. A traditional listing depends on finding the right buyer, then waiting through their financing and inspection timeline — which can run anywhere from a few weeks to a few months, with no guarantee it closes at all. A cash sale gives you a firm date up front.</p>
+      <h2>Selling at the Gateway to Skyline Drive</h2>
+      <p>Front Royal is the county seat of Warren County, sitting near the northern entrance to Skyline Drive and Shenandoah National Park, at the point where the North and South Forks of the Shenandoah River meet. That combination of river and mountain access has long made it a draw for outdoor recreation — it's sometimes called the "Canoe Capital of Virginia" — and it shapes the kind of buyer looking at property here, from full-time residents to people wanting a Shenandoah Valley getaway.</p>
+    `,
     faqs: [
       {
         q: 'What is the Front Royal housing market like right now?',

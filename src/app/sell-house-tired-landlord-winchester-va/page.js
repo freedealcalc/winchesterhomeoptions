@@ -30,6 +30,14 @@ export default async function WinchesterTiredLandlordPage() {
       'Sell with tenants in place or vacant — both work',
       'No judgment · Free consultation',
     ],
+    bodyContent: `
+      <h2>You Don't Have to Get the Property Vacant First</h2>
+      <p>One of the biggest misconceptions Winchester landlords have is that they need an empty house before they can sell. In most cases, that's backwards. Investors active in the Frederick County and Winchester rental market routinely buy occupied properties and simply take over as the new landlord at closing, inheriting the existing lease and the rent that comes with it. If your tenants are current and easy to work with, that can actually make your property more attractive, not less.</p>
+      <p>If you'd rather sell with nobody living there — because the lease is about to expire, the tenant relationship has soured, or you simply want a clean handoff — Virginia law gives you a defined runway to end things properly. A month-to-month tenancy requires 30 days' written notice to end with no violation involved; a week-to-week arrangement only needs 7 days.</p>
+      <h2>Weighing Occupied vs. Vacant for Your Winchester Property</h2>
+      <p>Which route nets you more depends on your specific lease, your tenant's reliability, and how much runway you have. A property with a well-behaved, paying tenant on a market-rate lease is often worth selling as-is with them in place — you skip the vacancy period and the carrying costs that come with it entirely. A property with a problem tenant or a stale below-market lease is usually worth clearing first. I walk through both numbers with you before you decide.</p>
+      <p style="font-style: italic; color: #8a8a8a; font-size: 0.85rem;">This is general information about selling a rental property with a tenant in place, not legal advice for your specific lease or tenancy. Confirm notice requirements and any lease-transfer terms with a landlord-tenant attorney before ending a tenancy or accepting an offer.</p>
+    `,
     faqs: [
       {
         q: 'Can I sell my Winchester rental property with tenants still in it?',

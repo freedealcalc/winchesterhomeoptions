@@ -30,6 +30,13 @@ export default async function MiddletownHubPage() {
       'Access to thousands of cash buyers — they compete, you win',
       'Any condition · Any situation · No judgment',
     ],
+    bodyContent: `
+      <h2>Straightforward Advice for Middletown Sellers</h2>
+      <p>Dan White is a licensed Virginia agent who has spent 20+ years working sales throughout Frederick County, including Middletown. He looks at each property individually — condition, timeline, and situation — before recommending a cash sale, an as-is MLS listing, or a wholetail approach, and explains what each one actually nets.</p>
+      <p>That same process applies whether the sale is being driven by a hardship like foreclosure or back taxes, or simply because it's time to sell.</p>
+      <h2>Middletown's Place in Frederick County History</h2>
+      <p>Middletown sits along Route 11 and I-81 in southern Frederick County, close to the Cedar Creek Battlefield, the site of the October 1864 Battle of Cedar Creek during the Civil War, and neighboring Belle Grove Plantation, a National Trust Historic Site. That history, combined with easy interstate access, has kept Middletown a steady, small-town market within the larger Frederick County area.</p>
+    `,
     faqs: [
       {
         q: 'What are my options to sell my Middletown home?',

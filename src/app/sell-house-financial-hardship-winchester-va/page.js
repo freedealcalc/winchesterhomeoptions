@@ -30,6 +30,15 @@ export default async function WinchesterFinancialHardshipPage() {
       'Confidential · No judgment · Every option explained',
       'Free consultation · Close on your timeline',
     ],
+    bodyContent: `
+      <h2>Why a Fast, As-Is Sale Makes Sense When Money Is Tight</h2>
+      <p>Financial hardship rarely comes with a convenient timeline, and a traditional home sale in Winchester can take months once you factor in repairs, staging, showings, and waiting to see if a buyer's loan actually closes. None of that is free, either &mdash; repairs come out of pocket before you've seen a dime, and a financing fall-through can send you back to square one.</p>
+      <p>An as-is cash sale removes those steps. The home sells in its current condition, there's no showings calendar to build your life around, and there's no lender approval process for a buyer's loan to get hung up on. What that means practically is turning home equity into usable cash on a much shorter, more predictable timeline.</p>
+      <h2>What a Faster Path Looks Like in Winchester</h2>
+      <p>For most Winchester homeowners, that means a closing in a matter of days to a few weeks instead of the two to three months a financed sale often takes, with nothing owed upfront for repairs, cleaning, or listing prep.</p>
+      <p>It won't always be the option that nets the highest possible price &mdash; a full market listing sometimes does better on pure dollars &mdash; but when the priority is speed and certainty, an as-is cash sale removes nearly every variable that can slow a traditional sale down or fall apart altogether.</p>
+      <p style="font-style: italic; color: #8a8a8a; font-size: 0.85rem;">This is general information about selling a home during financial hardship, not financial or legal advice for your specific situation &mdash; what makes sense depends on your mortgage balance, any liens, and your broader financial picture. Confirm your specific situation with a financial advisor, accountant, or attorney before accepting an offer.</p>
+    `,
     faqs: [
       { q: 'What are my options if I need to sell quickly due to financial hardship in Winchester?', a: 'Cash sale is the fastest path — close in 7–21 days, no repairs, no showings. As-is MLS listing can also move quickly in a strong market and often produces more money. I show you the honest numbers on both and you decide which trade-off makes sense.' },
       { q: 'Can I sell my Winchester home if I am behind on taxes or have liens?', a: 'Yes. Back taxes and liens are paid from closing proceeds — you do not need cash in hand to resolve them first. As long as there is enough equity to cover what is owed, the transaction works.' },

@@ -30,6 +30,15 @@ export default async function WinchesterMoldPage() {
       'Cash buyers who accept mold situations as-is',
       'Disclosure handled correctly · Free consultation',
     ],
+    bodyContent: `
+      <h2>Remediation Is Optional, Not a Prerequisite</h2>
+      <p>Finding mold in a Winchester home doesn't create an obligation to remediate it before you can sell. An as-is or cash buyer already expects to evaluate the property in its current condition, and many of them specifically look for homes with exactly this kind of issue, because they have the process and contacts in place to handle it after closing.</p>
+      <p>That means you're not stuck choosing between an expensive remediation project and an indefinite delay. The property can go to market with the mold still present, and the right buyer factors that into the number they offer rather than asking you to fix it first.</p>
+      <h2>What to Disclose, and to Whom</h2>
+      <p>Virginia has its own framework for what a seller does and doesn't need to disclose about known property conditions, and where mold fits into that depends on specifics — how it was discovered, whether it's been tested, and what you actually know versus suspect. Rather than guess at what applies to your situation, this is exactly the kind of question a Virginia real estate attorney can answer directly, based on your specific facts.</p>
+      <p>Getting that answer early, before you list, tends to make the rest of the process smoother — you're not making disclosure decisions on the fly once a buyer is already involved.</p>
+      <p style="font-style: italic; color: #8a8a8a; font-size: 0.85rem;">This is general information, not legal advice for your specific situation — Virginia's disclosure rules and how they apply depend on the specific facts of your property. Confirm your disclosure obligations with a real estate attorney before listing.</p>
+    `,
     faqs: [
       { q: 'Do I have to disclose mold when selling a Winchester home?', a: 'Yes — Virginia requires sellers to disclose known material defects including mold. Proper disclosure protects you legally. Trying to hide mold is far riskier than disclosing it. I help you navigate disclosure correctly.' },
       { q: 'Can I sell a Winchester home with mold without remediating first?', a: 'Yes, to the right buyer. Cash buyers and investors who buy as-is factor mold remediation into their pricing and handle it themselves. Traditional buyers using financing may face lender restrictions, which is why the buyer pool matters.' },

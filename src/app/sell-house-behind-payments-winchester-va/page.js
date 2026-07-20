@@ -30,6 +30,16 @@ export default async function WinchesterBehindPaymentsPage() {
       'Close in as few as 7 days — before foreclosure locks you out',
       'Confidential · No judgment · Free consultation',
     ],
+    bodyContent: `
+      <h2>How a Missed Payment Can Become a Foreclosure Sale in Virginia</h2>
+      <p>A missed mortgage payment on its own doesn't put a Winchester home on a foreclosure track. But Virginia is a non-judicial foreclosure state &mdash; the deed of trust signed at closing already authorizes the trustee to sell the property without court involvement &mdash; so once a lender decides to move forward, there's no judge to slow things down.</p>
+      <p>Owner-occupied homes are entitled to at least 60 days' written notice before a sale (<a href="https://law.lis.virginia.gov/vacode/55.1-321/" target="_blank" rel="noopener noreferrer">Va. Code &sect;&nbsp;55.1-321</a> and <a href="https://law.lis.virginia.gov/vacode/55.1-322/" target="_blank" rel="noopener noreferrer">&sect;&nbsp;55.1-322</a>). After that, the sale has to be advertised weekly for two weeks or on three consecutive days, and can be scheduled anywhere from 8 to 30 days after that publication runs. Altogether, most Winchester homeowners facing a formal notice are looking at roughly 60 to 90 days before an actual sale date.</p>
+      <p>There's no redemption period afterward in Virginia &mdash; once the trustee's sale is final, it's final &mdash; and lenders can pursue a deficiency judgment if the sale doesn't cover the full loan balance. That's where an unaddressed missed payment eventually leads.</p>
+      <h2>Why the Window Before a Notice Arrives Is the One to Use</h2>
+      <p>The 60-to-90-day clock described above doesn't start until a formal notice is filed &mdash; it's not the moment a payment is missed. Winchester and Frederick County share the Frederick County Circuit Court at the Joint Judicial Center, 5 North Kent Street, Winchester, VA 22601-5037 &middot; (540) 667-5770, which is the office of record for any deed of trust or recorded notice tied to the property.</p>
+      <p>Homeowners who act in that earlier window &mdash; before a notice is filed &mdash; typically have more flexibility on closing timeline, more say in who they sell to, and a much better chance of keeping the equity that's built up, instead of losing it to fees, penalties, or a post-sale deficiency claim.</p>
+      <p style="font-style: italic; color: #8a8a8a; font-size: 0.85rem;">This is general information about how Virginia foreclosure works, not legal advice for your specific situation &mdash; actual notice periods, reinstatement rights, and deficiency exposure depend on your loan documents and servicer. Confirm your specific situation with your servicer or a Virginia foreclosure attorney before making a decision.</p>
+    `,
     faqs: [
       {
         q: 'If I\'m behind on payments in Winchester, how much time do I have before foreclosure?',

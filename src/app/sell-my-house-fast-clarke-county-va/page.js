@@ -30,6 +30,13 @@ export default async function ClarkeCountyPage() {
       'Rural properties, farmhouses, estates — all handled',
       'Free consultation · No pressure · Any condition',
     ],
+    bodyContent: `
+      <h2>How a Fast Sale Works for Clarke County Properties</h2>
+      <p>Clarke County has more rural and older housing stock than its neighbors — farmhouses, homes with acreage, properties that have been in a family for decades. Traditional financing can be harder to secure on that kind of property, and repairs an appraiser flags can stall a sale for months. A cash or as-is sale removes financing contingencies and repair negotiations from the equation entirely — the home sells as it stands, on a timeline you set.</p>
+      <p>That matters more in Clarke County than in a larger market. A thinner buyer pool means a traditional listing can sit longer waiting for the right buyer, especially on a property that needs work. Selling as-is to a cash buyer, or listing as-is specifically to the investor audience actively looking for these properties, shortens that wait considerably.</p>
+      <h2>Selling in the Blue Ridge Foothills</h2>
+      <p>Clarke County sits between the Blue Ridge Mountains and the Shenandoah River, with Berryville as the county seat and smaller communities like Boyce and Millwood nearby. It's long been known for orchards and horse farms, and that agricultural character shows up in the housing stock — larger lots, older construction, and properties that don't fit a cookie-cutter MLS listing.</p>
+    `,
     faqs: [
       {
         q: 'What areas of Clarke County do you serve?',

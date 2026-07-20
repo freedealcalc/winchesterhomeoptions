@@ -30,6 +30,14 @@ export default async function StephensCityDivorcePage() {
       'Works with both parties and their counsel',
       'Confidential · No judgment · Free consultation',
     ],
+    bodyContent: `
+      <h2>How Virginia Actually Divides a House in Divorce</h2>
+      <p>Virginia is an "equitable distribution" state, not a community-property state — governed by <a href="https://law.lis.virginia.gov/vacode/title20/chapter6/section20-107.3/" target="_blank" rel="noopener noreferrer">Va. Code &sect;&nbsp;20-107.3</a>. The court doesn't split marital assets automatically down the middle. It first classifies the property as separate (owned before the marriage, or received by gift or inheritance), marital (acquired during the marriage), or mixed — a home bought before the wedding but paid down with marital income afterward is a common mixed-property example in Frederick County. Only the marital share is ever on the table for division.</p>
+      <p>From there, the court has broad authority under the statute: it can order the home transferred to one spouse, order a private sale between the parties, or order a public sale — weighing eleven factors including each spouse's contributions, the length of the marriage, and how the property was acquired. Most Stephens City couples never actually see a judge make this call; they work out a sale or buyout directly, which is faster, cheaper, and keeps control of the outcome in their own hands.</p>
+      <h2>Where a Frederick County Divorce Case Sits</h2>
+      <p>Divorce decrees and equitable distribution orders for Stephens City and the rest of Frederick County are handled at the <strong>Frederick County Circuit Court</strong>, part of the Joint Judicial Center at 5 North Kent Street, Winchester, VA 22601 &middot; (540) 667-5770. That's the court your attorneys will be filing with if a sale needs to be reflected in a separation agreement or final decree.</p>
+      <p style="font-style: italic; color: #8a8a8a; font-size: 0.85rem;">This is general information about how Virginia property division works, not legal advice for your specific case — whether your home is separate, marital, or mixed property depends on the particular facts of your marriage and purchase history. Confirm your situation with a Virginia family law attorney before making decisions about a sale.</p>
+    `,
     faqs: [
       {
         q: 'Do both spouses have to sign off on selling the Stephens City home?',

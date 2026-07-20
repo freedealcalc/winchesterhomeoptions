@@ -30,6 +30,13 @@ export default async function ClearbrookHubPage() {
       'Access to thousands of cash buyers — they compete, you win',
       'Any condition · Any situation · No judgment',
     ],
+    bodyContent: `
+      <h2>Local Knowledge, Not a Call Center</h2>
+      <p>Clearbrook homeowners work directly with Dan White, a licensed Virginia agent who has spent 20+ years in Frederick County real estate. He reviews each property's condition, the seller's timeline, and whatever situation is driving the sale, then lays out the realistic cash-sale, as-is-listing, and wholetail numbers before anything is decided.</p>
+      <p>The same process applies to a routine move as it does to a home with back taxes or repair issues — every seller gets the same honest breakdown.</p>
+      <h2>Clearbrook in Northern Frederick County</h2>
+      <p>Clearbrook is an unincorporated community in the northern end of Frederick County, strung along Route 11 with easy access to I-81 toward both Winchester and the West Virginia state line. It's a more rural stretch of the county, with a mix of older farmhouses and newer construction that draws both local buyers and investors looking outside Winchester's city limits.</p>
+    `,
     faqs: [
       {
         q: 'What options do I have to sell my Clearbrook home?',

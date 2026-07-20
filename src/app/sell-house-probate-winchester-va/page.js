@@ -30,6 +30,14 @@ export default async function WinchesterProbatePage() {
       'Works with estate attorneys and executors',
       'Buy as-is — full of belongings, any condition',
     ],
+    bodyContent: `
+      <h2>How Probate Actually Works in Virginia</h2>
+      <p>Before an estate can sell a Winchester property, someone needs legal authority to act for it — an executor (if there's a will) or an administrator (if there isn't) must qualify with the Circuit Court in the county where the deceased lived. Virginia doesn't set a hard deadline for when that qualification has to happen, but the state's own probate guidance points to the first steps typically starting within about 30 days of the death.</p>
+      <p>Not every estate needs full-blown probate administration. If the personal property in the estate is worth $50,000 or less, Virginia allows a simplified small-estate procedure — the will is recorded but a formal administration isn't required. For estates that do go through full administration, a first (and often final) accounting is typically due at the one-year mark following qualification, which gives a rough sense of how long a straightforward Frederick County estate takes to fully wind down — though the property itself can often sell well before that accounting is filed.</p>
+      <h2>Where a Frederick County Estate Is Handled</h2>
+      <p>Qualification, wills, and probate matters for Winchester and the rest of Frederick County — which share the same courthouse — go through the <strong>Frederick County / Winchester Joint Judicial Center</strong>, 5 North Kent Street, Winchester, VA 22601-5037 &middot; (540) 667-5770. That's the office your attorney will be filing with to get the executor or administrator qualified.</p>
+      <p style="font-style: italic; color: #8a8a8a; font-size: 0.85rem;">This is general information about how Virginia probate works, not legal advice for your specific estate — timelines and whether court approval is needed for a sale depend on the will, the estate's size, and whether heirs agree. Confirm your specific situation with the estate's attorney before listing or accepting an offer.</p>
+    `,
     faqs: [
       {
         q: 'Can I sell a Winchester home while it\'s still in probate?',

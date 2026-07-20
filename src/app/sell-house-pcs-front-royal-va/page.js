@@ -29,6 +29,14 @@ export default async function FrontRoyalPcsPage() {
       'Close in 7 days or on your military timeline',
       'Remote signing available',
     ],
+    bodyContent: `
+      <h2>SCRA Protections Give Front Royal Military Families Real Leverage</h2>
+      <p>The Servicemembers Civil Relief Act gives you more protection than most sellers realize. If your mortgage originated before you went on active duty, a lender generally cannot foreclose without an actual court order while you're serving, and that protection extends for 12 months after you leave service — no default judgment can simply be entered against you in a foreclosure case. On request, the SCRA can also cap the interest rate on that pre-service debt at 6% for the length of active duty plus one additional year.</p>
+      <p>None of this is a substitute for handling the sale itself — it exists to prevent a worst-case foreclosure scenario, not to manage your timeline for you. For questions specific to your orders, mortgage, or situation, your local JAG legal assistance office is the right first call.</p>
+      <h2>A Report Date Doesn't Bend Like a Normal Sale Timeline</h2>
+      <p>A typical home sale in Warren County moves at the market's pace. A PCS sale doesn't have that luxury — your report date is fixed by orders, not negotiable the way a closing date sometimes is. That's the real difference: the legal protections above matter if things go sideways, but the practical work is building a sale timeline backward from a date you don't control, rather than the other way around.</p>
+      <p style="font-style: italic; color: #8a8a8a; font-size: 0.85rem;">This is general information about SCRA protections and PCS timelines, not legal advice for your specific situation — confirm your specific situation with your local JAG office or a real estate attorney before relying on any SCRA protection or assuming how it applies to your orders.</p>
+    `,
     faqs: [
       { q: 'How fast can I sell my Front Royal home with PCS orders?', a: 'Cash sales close in 7 to 21 days in Warren County. Tell me your report date and I structure the sale around it.' },
       { q: 'Can I close on my Front Royal home remotely?', a: 'Yes — remote signing is standard. I handle coordination locally. You sign from your new duty station.' },

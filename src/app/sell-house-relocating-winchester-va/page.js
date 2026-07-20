@@ -30,6 +30,14 @@ export default async function WinchesterRelocatingPage() {
       'Remote signing available — you don\'t have to be here to close',
       'Fast or full-price — you set the priority',
     ],
+    bodyContent: `
+      <h2>The Real Cost of a Home That Sells on Its Own Schedule</h2>
+      <p>Every week a Winchester home sits unsold after you've already relocated is a week of carrying two sets of housing costs — the mortgage, utilities, and upkeep here, plus rent or a new mortgage wherever you've landed. A traditional listing that takes six to eight weeks from "on the market" to a closed sale can turn a routine job move into a financial squeeze, especially if the new position starts before the old house even goes live on the MLS.</p>
+      <p>It's not just money, either. A house sitting vacant or half-packed through a Shenandoah Valley winter also needs someone keeping an eye on it — checking the furnace, dealing with a burst pipe, mowing the lawn — often from hundreds of miles away.</p>
+      <h2>Matching the Sale to Your Start Date, Not the Other Way Around</h2>
+      <p>A direct cash sale flips the order of operations: instead of listing first and hoping a buyer and a closing date happen to line up with your move, you set the closing date first and work backward. Most cash closings on Winchester properties run seven to twenty-one days from an accepted offer — often faster than a financed buyer's loan can even clear underwriting.</p>
+      <p>Because the sale is as-is, there's nothing to schedule around on the repair side either — no contractor bids, no reinspection period, no renegotiation after a home inspection turns up a problem. The house sells in the condition it's in the day you sign.</p>
+    `,
     faqs: [
       {
         q: 'How fast can I sell my Winchester home if I need to relocate quickly?',

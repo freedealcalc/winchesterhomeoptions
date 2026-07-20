@@ -30,6 +30,12 @@ export default async function WarrenCountyHubPage() {
       'Access to thousands of cash buyers — they compete, you win',
       'Any condition · Any situation · No judgment',
     ],
+    bodyContent: `
+      <h2>A Licensed Agent Covering All of Warren County</h2>
+      <p>Dan White is a licensed Virginia real estate agent who has worked Warren County properties for more than 20 years, from Front Royal out to the more rural corners of the county. Every seller gets a look at the cash-sale, as-is-listing, and wholetail paths side by side, whether the sale is routine or complicated by foreclosure, probate, or deferred maintenance.</p>
+      <h2>Warren County and the Northern Shenandoah Valley</h2>
+      <p>Warren County's seat is Front Royal, positioned where the North and South Forks of the Shenandoah River meet and marking the northern entrance to Skyline Drive and Shenandoah National Park. The county's location along the I-66 corridor has also made it a landing spot for buyers priced out of Northern Virginia, adding steady demand on top of the area's outdoor-recreation draw.</p>
+    `,
     faqs: [
       {
         q: 'What areas of Warren County do you cover?',

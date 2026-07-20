@@ -30,6 +30,15 @@ export default async function WinchesterFireDamagedPage() {
       'Buyers who specifically want fire damaged properties as-is',
       'Works alongside insurance claims · Free consultation',
     ],
+    bodyContent: `
+      <h2>Selling While a Fire Claim Is Open</h2>
+      <p>A fire loss and the sale of the house are two separate processes, and they don't need to be resolved in the same order. Some Frederick County homeowners choose to sell before ever filing a claim; others sell with a claim already open, or even after part of an insurance settlement has already been paid out. A cash or as-is buyer doesn't need the claim to be closed first, and doesn't need reconstruction to have started — let alone finished — before making an offer.</p>
+      <p>What matters to that kind of buyer is the property as it sits today, not a repair estimate, a contractor's schedule, or where things stand with the adjuster. If you're still working through a claim, that conversation can continue in parallel with a sale conversation — the two don't have to block each other.</p>
+      <h2>No Permits, No Repairs Required to Sell As-Is</h2>
+      <p>Because the buyer pool for fire damaged homes already expects post-fire condition, there's no obligation to pull permits, complete structural repairs, or even begin cleanup before putting a Winchester property on the market. That's different from a typical resale, where a buyer's lender might require completed repairs before closing. Cash buyers who specialize in this category account for the damage in their offer and take on remediation themselves after closing.</p>
+      <p>That also means there's no pressure to make decisions under a repair deadline. Whether the structure needs a full rebuild or the damage is contained to one area, the property can be marketed and sold in its current condition, on your timeline rather than a contractor's.</p>
+      <p style="font-style: italic; color: #8a8a8a; font-size: 0.85rem;">This is general information, not insurance or legal advice for your specific situation — how your claim interacts with a sale depends on your policy, your insurer, and where your claim currently stands. Confirm your specific situation with your insurance adjuster before making decisions about the sale.</p>
+    `,
     faqs: [
       { q: 'Can I sell a fire damaged home in Winchester without making repairs?', a: 'Yes. There is an active buyer pool — contractors, investors, developers — who specifically seek fire damaged properties. They purchase as-is and handle all remediation themselves. No repairs, no cleanup, no remediation required from you.' },
       { q: 'Should I rebuild or sell a fire damaged Winchester property?', a: 'Depends on your insurance coverage, your equity, and your timeline. I can walk you through the financial picture on both — rebuild cost vs. current as-is value — so you make the call with real numbers in front of you, not guesswork.' },

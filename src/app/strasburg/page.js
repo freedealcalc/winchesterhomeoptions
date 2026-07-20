@@ -30,6 +30,12 @@ export default async function StrasburgHubPage() {
       'Access to thousands of cash buyers — they compete, you win',
       'Any condition · Any situation · No judgment',
     ],
+    bodyContent: `
+      <h2>A Licensed Agent Who Knows the Southern Valley Market</h2>
+      <p>Dan White is a licensed Virginia real estate agent with 20+ years of experience across the Shenandoah Valley, including Strasburg. He reviews each home's condition and the seller's timeline before laying out the cash-sale, as-is-listing, and wholetail numbers — the same process whether the sale is routine or driven by a harder situation like foreclosure or an inherited property.</p>
+      <h2>Strasburg, the "Gem City" of the Shenandoah Valley</h2>
+      <p>Strasburg sits in Shenandoah County along the North Fork of the Shenandoah River and the I-81 corridor, and has long carried the nickname the "Gem City of the Valley." The town has also built a reputation as an antiques destination, and its small-town core along Route 11 gives it a distinct character from the larger Winchester and Front Royal markets to its north.</p>
+    `,
     faqs: [
       {
         q: 'What options do I have to sell my Strasburg home?',

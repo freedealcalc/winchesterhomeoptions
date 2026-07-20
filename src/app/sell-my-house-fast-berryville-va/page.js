@@ -30,6 +30,13 @@ export default async function BerryvillePage() {
       'Any condition — no repairs, no cleanout required',
       'Free consultation · No pressure · Close on your timeline',
     ],
+    bodyContent: `
+      <h2>The Mechanics of a Cash or As-Is Sale in Berryville</h2>
+      <p>An as-is sale means the buyer takes the property exactly as it is — no negotiating over a leaking roof, an old HVAC system, or cosmetic issues that would normally come up in a home inspection. That also means no repainting, no repairs, and no opening your home for a string of showings before you've even decided to sell.</p>
+      <p>A cash sale adds certainty on top of that. There's no lender in the process who can deny financing weeks after you've accepted an offer, which is one of the more common ways a traditional sale falls apart. You set the closing date — sooner if you need to move quickly, later if you need time to find your next place.</p>
+      <h2>Selling in the Clarke County Seat</h2>
+      <p>Berryville is the county seat of Clarke County, a small town built around its historic courthouse square in the Blue Ridge foothills. The surrounding area is largely agricultural — orchards and horse farms are part of the landscape — and that rural character extends into the housing stock, with older homes and larger lots that don't always fit neatly into a standard MLS comparison.</p>
+    `,
     faqs: [
       {
         q: 'Is Berryville a good market to sell in right now?',

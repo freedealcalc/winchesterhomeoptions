@@ -30,6 +30,13 @@ export default async function ClearbrookPage() {
       'Any condition · Rural and residential both handled',
       'Free consultation · No pressure',
     ],
+    bodyContent: `
+      <h2>A Fast, As-Is Sale Without the Repair List</h2>
+      <p>Selling a home in Clearbrook the traditional way means fixing what an appraiser or buyer's inspector flags, opening the house up for showings, and then waiting on financing to clear before you know the deal is real. A cash or as-is sale skips all of that — you're not painting, replacing flooring, or clearing out a garage before anyone sees the property. The home sells in the condition it's in right now.</p>
+      <p>The other piece is timing. A traditional MLS listing in this part of Frederick County can move quickly or can sit for weeks depending on price, condition, and what else is on the market at the same time — and even after you accept an offer, financed buyers still have appraisal and loan contingencies that can delay or unravel a closing. An as-is or cash sale trades some of that uncertainty for a closing date you can actually plan around.</p>
+      <h2>Selling Property in Northern Frederick County</h2>
+      <p>Clearbrook sits in the northern end of Frederick County, close to the West Virginia state line and the I-81/Route 11 corridor that connects Winchester to Martinsburg. It's a mix of rural and residential properties — everything from smaller homes on a lot to acreage and older farmhouses — which calls for a different pricing and marketing approach than a subdivision closer to town.</p>
+    `,
     faqs: [
       { q: 'Is Clearbrook a strong market for sellers?', a: 'Clearbrook attracts buyers who want northern Frederick County access — close to I-81, Martinsburg, and Winchester. It is a niche market but there is real buyer demand, particularly from investors and value buyers. Live data is above.' },
       { q: 'Can I sell a Clearbrook property as-is?', a: 'Yes. Cash buyers active in Frederick County purchase Clearbrook properties without requiring repairs or cleanup. As-is MLS listings also work for properties in reasonable condition.' },

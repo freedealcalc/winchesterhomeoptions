@@ -30,6 +30,13 @@ export default async function StrasburgPage() {
       'Any condition · Fast or full-price — your call',
       'Free consultation · No pressure',
     ],
+    bodyContent: `
+      <h2>What Selling As-Is Actually Looks Like Here</h2>
+      <p>An as-is sale in Strasburg means skipping the pre-listing to-do list entirely — no repainting, no repairs, no deep clean before anyone walks through. Cash buyers purchase the property in its current condition, and even an as-is MLS listing can be marketed honestly without the pressure to fix things up first.</p>
+      <p>Strasburg is a smaller market than Winchester, which means a traditional listing can take longer to find the right buyer, particularly on a property that needs work. A cash sale trades the wait — and the uncertainty of financing falling through — for a fixed closing date you agree to upfront.</p>
+      <h2>A Small Valley Town Along I-81</h2>
+      <p>Strasburg sits in Shenandoah County along the I-81 corridor, south of Winchester and Frederick County. It's a small town with a walkable Main Street that's long been known regionally for its antique shops, and it draws buyers who want Shenandoah Valley living at a different price point than Winchester proper.</p>
+    `,
     faqs: [
       { q: 'Do you serve Strasburg and Shenandoah County?', a: 'Yes — Strasburg is at the edge of my primary market but I work it regularly. The I-81 corridor from Winchester to Strasburg is an area I know well after 20+ years.' },
       { q: 'Is Strasburg a good market to sell in?', a: 'Strasburg offers Shenandoah Valley living at prices below Winchester — which attracts a specific buyer pool including investors, first-time buyers, and value seekers. Live market data is above.' },

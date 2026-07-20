@@ -7,6 +7,14 @@ const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
 )
 
+const bodyContent = `
+  <h2>One Licensed Agent, Every Option Across the Shenandoah Valley</h2>
+  <p>Winchester Home Options is built around one licensed Virginia agent, Dan White, rather than a call center or a single cash-offer script. Over more than 20 years working Winchester, Frederick County, Warren County, and Clarke County, he's handled the full range of reasons people sell: pre-foreclosure and mortgage default, divorce, probate and inherited property, delinquent tax liens, HOA disputes, tired landlords ready to be done with tenants, military and job-related PCS moves, fire or mold damage, general financial hardship, and plenty of homeowners who just want a fast, uncomplicated sale with no repairs required.</p>
+  <p>Because he's a licensed agent as well as someone with direct access to a large network of cash investors, sellers get an honest comparison between an off-market cash sale, an as-is MLS listing, and everything in between — instead of being steered toward whichever option benefits the buyer most.</p>
+  <h2>Covering Winchester, Frederick, Warren, and Clarke Counties</h2>
+  <p>The service area runs from the independent city of Winchester out through the rest of Frederick County — Stephens City, Clearbrook, Middletown — north into Warren County around Front Royal near the entrance to Shenandoah National Park, and east into the Blue Ridge foothills of Clarke County around Berryville. Every one of these communities sits along the I-81 corridor through the northern Shenandoah Valley, and Dan works all of them directly rather than handing off referrals.</p>
+`
+
 export default function HomePage() {
   async function handleSubmit(e) {
     e.preventDefault()
@@ -1030,6 +1038,11 @@ export default function HomePage() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* OVERVIEW */}
+      <section style={{ padding: '90px 0', background: 'var(--white)' }}>
+        <div className="container" style={{ maxWidth: 760 }} dangerouslySetInnerHTML={{ __html: bodyContent }} />
       </section>
 
       {/* TRUST */}

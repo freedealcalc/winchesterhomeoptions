@@ -30,6 +30,13 @@ export default async function WinchesterHubPage() {
       'Access to thousands of cash buyers — they compete, you win',
       'Any condition · Any situation · No judgment',
     ],
+    bodyContent: `
+      <h2>Why Winchester Sellers Work With a Licensed Agent, Not Just a Cash Buyer</h2>
+      <p>Winchester Home Options is run by Dan White, a licensed Virginia real estate agent with Pearson Smith Realty who has spent over 20 years buying, selling, and renovating property throughout Frederick County. Because he's licensed, he can put a home on the open market as well as connect it directly with cash investors — so the recommendation on any given property depends on what nets the seller more, not on which option pays him more.</p>
+      <p>That range matters whether the home is straightforward or complicated by liens, code violations, or an estate that needs to close on a deadline.</p>
+      <h2>Winchester's Place in the Shenandoah Valley</h2>
+      <p>Winchester is an independent city in the northern Shenandoah Valley, separate from the surrounding Frederick County it's historically tied to, and it sits along the Route 11 and I-81 corridor that runs the length of the valley. Its location changed hands repeatedly during the Civil War due to its position at a strategic crossroads, and the city has long been known for the apple orchards that still give the annual Shenandoah Apple Blossom Festival its name.</p>
+    `,
     faqs: [
       {
         q: 'What options do I have to sell my Winchester home?',

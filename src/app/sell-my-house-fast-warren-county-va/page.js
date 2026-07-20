@@ -30,6 +30,13 @@ export default async function WarrenCountyPage() {
       'Farmhouses, rural estates, single family — all handled',
       'Any condition · Free consultation · No pressure',
     ],
+    bodyContent: `
+      <h2>Selling Fast Without Waiting on a Buyer's Financing</h2>
+      <p>A cash or as-is sale in Warren County means no repair list, no staging, and no strangers walking through the house every weekend. The property sells in whatever condition it's in today — carpet, roof, foundation, all of it. That's the biggest practical difference from a traditional listing, where an appraisal or home inspection can send you back to the negotiating table over things you didn't expect to pay for.</p>
+      <p>It also changes the risk profile. A financed buyer on the MLS can fall through weeks into the process over an appraisal gap or a loan denial, and you're back to square one. A cash sale doesn't carry that risk — once the offer is accepted, there's no lender in the middle who can say no. You also set the closing date, whether that's a week out or a few months out.</p>
+      <h2>A County Built Around the River and the Mountains</h2>
+      <p>Warren County's seat, Front Royal, sits where the North and South Forks of the Shenandoah River come together, near the northern entrance to Skyline Drive and Shenandoah National Park. The rest of the county spreads out from there through smaller communities along the river and the base of the Blue Ridge — a mix of long-established homes, newer construction, and rural acreage that each need a different selling strategy.</p>
+    `,
     faqs: [
       { q: 'What areas of Warren County do you serve?', a: 'All of Warren County — Front Royal, Bentonville, Linden, Waterlick, Chester Gap, and all rural communities. Front Royal is the anchor but I work the entire county.' },
       { q: 'Is Warren County a good market to sell in right now?', a: 'Warren County has attracted buyers seeking Shenandoah Valley living with I-66 and I-81 access. Investor interest has grown significantly. Live market data is at the top of this page.' },

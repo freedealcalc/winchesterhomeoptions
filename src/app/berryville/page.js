@@ -30,6 +30,12 @@ export default async function BerryvilleHubPage() {
       'Access to thousands of cash buyers — they compete, you win',
       'Any condition · Any situation · No judgment',
     ],
+    bodyContent: `
+      <h2>A Licensed Agent With Deep Clarke County Roots</h2>
+      <p>Berryville homeowners work directly with Dan White, a licensed Virginia agent who has spent more than 20 years in the Shenandoah Valley, including Clarke County. He compares the cash-sale, as-is-listing, and wholetail paths for every property before recommending anything, whether the situation is a standard move or something more complicated like probate or deferred repairs.</p>
+      <h2>Berryville, the Seat of Clarke County</h2>
+      <p>Berryville is the county seat of Clarke County, sitting in the foothills of the Blue Ridge Mountains east of the Shenandoah River. It's a small, historic downtown surrounded by working farmland, which keeps the local housing market smaller and more rural in character than the busier corridors around Winchester and Front Royal.</p>
+    `,
     faqs: [
       {
         q: 'What options do I have to sell my Berryville home?',
