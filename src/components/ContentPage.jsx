@@ -58,6 +58,87 @@ const SITUATIONS = [
   'Other',
 ];
 
+// Verified real routes, generated from the actual src/app directory — do not add
+// a city here without confirming the page.js file exists, or getSituationHref
+// will fall through to the generic fast-sale page (a safe fallback, never a 404).
+const CITY_SLUG_MAP = {
+  'winchester': ['winchester-va'],
+  'front royal': ['front-royal-va'],
+  'berryville': ['berryville-va'],
+  'stephens city': ['stephens-city-va'],
+  'middletown': ['middletown-va'],
+  'strasburg': ['strasburg-va'],
+  'clearbrook': ['clearbrook-va'],
+  'frederick county': ['frederick-county-va'],
+  'warren county': ['warren-county-va'],
+  'clarke county': ['clarke-county-va'],
+};
+
+const SITUATION_PREFIXES = {
+  foreclosure: 'sell-house-foreclosure-',
+  divorce: 'sell-house-divorce-',
+  probate: 'sell-house-probate-',
+  inherited: 'sell-inherited-house-',
+  'tax-lien': 'sell-house-tax-lien-',
+  'behind-payments': 'sell-house-behind-payments-',
+  'financial-hardship': 'sell-house-financial-hardship-',
+  'code-violations': 'sell-house-code-violations-',
+  'tired-landlord': 'sell-house-tired-landlord-',
+  pcs: 'sell-house-pcs-',
+  'fire-damaged': 'sell-fire-damaged-house-',
+  mold: 'sell-house-mold-',
+  vacant: 'sell-vacant-house-',
+  relocating: 'sell-house-relocating-',
+  fast: 'sell-my-house-fast-',
+  'we-buy': 'we-buy-houses-',
+};
+
+const SITUATION_AVAILABILITY = {
+  foreclosure: ['berryville-va', 'clarke-county-va', 'frederick-county-va', 'front-royal-va', 'stephens-city-va', 'warren-county-va', 'winchester-va'],
+  divorce: ['berryville-va', 'clarke-county-va', 'frederick-county-va', 'front-royal-va', 'stephens-city-va', 'warren-county-va', 'winchester-va'],
+  probate: ['berryville-va', 'clarke-county-va', 'frederick-county-va', 'front-royal-va', 'stephens-city-va', 'warren-county-va', 'winchester-va'],
+  inherited: ['berryville-va', 'clarke-county-va', 'frederick-county-va', 'front-royal-va', 'stephens-city-va', 'warren-county-va', 'winchester-va'],
+  'tax-lien': ['front-royal-va', 'stephens-city-va', 'winchester-va'],
+  'behind-payments': ['berryville-va', 'front-royal-va', 'stephens-city-va', 'winchester-va'],
+  'financial-hardship': ['front-royal-va', 'stephens-city-va', 'winchester-va'],
+  'code-violations': ['front-royal-va', 'stephens-city-va', 'winchester-va'],
+  'tired-landlord': ['berryville-va', 'front-royal-va', 'stephens-city-va', 'winchester-va'],
+  pcs: ['front-royal-va', 'stephens-city-va', 'winchester-va'],
+  'fire-damaged': ['front-royal-va', 'stephens-city-va', 'winchester-va'],
+  mold: ['front-royal-va', 'stephens-city-va', 'winchester-va'],
+  vacant: ['front-royal-va', 'stephens-city-va', 'winchester-va'],
+  relocating: ['berryville-va', 'front-royal-va', 'stephens-city-va', 'winchester-va'],
+  fast: ['berryville-va', 'clarke-county-va', 'clearbrook-va', 'frederick-county-va', 'front-royal-va', 'middletown-va', 'stephens-city-va', 'strasburg-va', 'warren-county-va', 'winchester-va'],
+  'we-buy': ['berryville-va', 'clarke-county-va', 'frederick-county-va', 'front-royal-va', 'stephens-city-va', 'warren-county-va', 'winchester-va'],
+};
+
+function getSituationHref(situationKey, cityDisplay) {
+  if (!cityDisplay) return '/';
+  const candidates = CITY_SLUG_MAP[cityDisplay.toLowerCase()] || [`${cityDisplay.toLowerCase().replace(/\s+/g, '-')}-va`];
+  const avail = SITUATION_AVAILABILITY[situationKey] || [];
+  for (const c of candidates) {
+    if (avail.includes(c)) return `/${SITUATION_PREFIXES[situationKey]}${c}`;
+  }
+  const fastAvail = SITUATION_AVAILABILITY.fast;
+  for (const c of candidates) {
+    if (fastAvail.includes(c)) return `/sell-my-house-fast-${c}`;
+  }
+  return '/';
+}
+
+const ALL_CITY_HUBS = [
+  { label: 'Winchester', href: '/winchester' },
+  { label: 'Front Royal', href: '/front-royal' },
+  { label: 'Berryville', href: '/berryville' },
+  { label: 'Stephens City', href: '/stephens-city' },
+  { label: 'Middletown', href: '/middletown' },
+  { label: 'Strasburg', href: '/strasburg' },
+  { label: 'Clearbrook', href: '/clearbrook' },
+  { label: 'Frederick County', href: '/frederick-county' },
+  { label: 'Warren County', href: '/warren-county' },
+  { label: 'Clarke County', href: '/clarke-county' },
+];
+
 function MiniForm({ placement, slug, dark = false }) {
   const [form, setForm] = useState({ name: '', phone: '', situation: '' });
   const [status, setStatus] = useState('idle');
@@ -168,14 +249,14 @@ export default function ContentPage({ config, stats, lastCronRun }) {
   ];
 
   const situations = [
-    { icon: '🏚️', label: 'Facing Foreclosure', desc: 'We can close in days — fast enough to stop the clock and protect your credit.' },
-    { icon: '⚖️', label: 'Divorce or Separation', desc: 'We handle the transaction so you can focus on what matters.' },
-    { icon: '🏠', label: 'Inherited Property', desc: 'Buy as-is — full of belongings, no cleanout required.' },
-    { icon: '🔧', label: 'Needs Major Work', desc: 'You don\'t have to fix a thing. Buyers who want it exactly as it is.' },
-    { icon: '📋', label: 'Liens or Back Taxes', desc: 'Resolved at closing from your proceeds. We\'ve navigated all of it.' },
-    { icon: '✈️', label: 'Relocating', desc: 'Close on your timeline. Remote signing available.' },
-    { icon: '🏘️', label: 'Tired Landlord', desc: 'Sell with tenants in place or vacant. Clean exit.' },
-    { icon: '💔', label: 'Financial Hardship', desc: 'No judgment. Just options and a clear path forward.' },
+    { icon: '🏚️', label: 'Facing Foreclosure', desc: 'We can close in days — fast enough to stop the clock and protect your credit.', key: 'foreclosure' },
+    { icon: '⚖️', label: 'Divorce or Separation', desc: 'We handle the transaction so you can focus on what matters.', key: 'divorce' },
+    { icon: '🏠', label: 'Inherited Property', desc: 'Buy as-is — full of belongings, no cleanout required.', key: 'inherited' },
+    { icon: '🔧', label: 'Needs Major Work', desc: 'You don\'t have to fix a thing. Buyers who want it exactly as it is.', key: 'fast' },
+    { icon: '📋', label: 'Liens or Back Taxes', desc: 'Resolved at closing from your proceeds. We\'ve navigated all of it.', key: 'tax-lien' },
+    { icon: '✈️', label: 'Relocating', desc: 'Close on your timeline. Remote signing available.', key: 'relocating' },
+    { icon: '🏘️', label: 'Tired Landlord', desc: 'Sell with tenants in place or vacant. Clean exit.', key: 'tired-landlord' },
+    { icon: '💔', label: 'Financial Hardship', desc: 'No judgment. Just options and a clear path forward.', key: 'financial-hardship' },
   ];
 
   return (
@@ -316,11 +397,11 @@ export default function ContentPage({ config, stats, lastCronRun }) {
           </div>
           <div className="cp-sit-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14 }}>
             {situations.map((s, i) => (
-              <div key={i} className="cp-sit-card" style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(184,58,58,0.18)', borderRadius: 10, padding: '20px 18px' }}>
+              <a key={i} href={getSituationHref(s.key, city)} className="cp-sit-card" style={{ display: 'block', textDecoration: 'none', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(184,58,58,0.18)', borderRadius: 10, padding: '20px 18px' }}>
                 <div style={{ fontSize: '1.5rem', marginBottom: 8 }}>{s.icon}</div>
                 <div style={{ fontFamily: 'var(--font-playfair), serif', fontWeight: 700, fontSize: '0.9rem', color: '#ffffff', marginBottom: 6 }}>{s.label}</div>
                 <p style={{ fontFamily: 'var(--font-source-serif), serif', fontSize: '0.82rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.6, margin: 0 }}>{s.desc}</p>
-              </div>
+              </a>
             ))}
           </div>
         </div>
@@ -478,20 +559,60 @@ export default function ContentPage({ config, stats, lastCronRun }) {
       {/* FOOTER */}
       <footer style={{ background: '#0f1c32', padding: '48px 0 32px', borderTop: '1px solid rgba(255,255,255,0.06)' }}>
         <div style={{ maxWidth: 1160, margin: '0 auto', padding: '0 24px' }}>
-          <div className="cp-footer-grid" style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr', gap: 48, marginBottom: 40 }}>
+          <div className="cp-footer-grid" style={{ display: 'grid', gridTemplateColumns: '1.2fr 0.85fr 0.9fr 1fr 0.8fr', gap: 32, marginBottom: 40 }}>
             <div>
               <div style={{ fontFamily: 'var(--font-playfair), serif', fontSize: '1.2rem', fontWeight: 700, color: '#ffffff', marginBottom: 12 }}>Winchester<span style={{ color: '#B83A3A' }}>Home</span>Options</div>
               <p style={{ fontFamily: 'var(--font-source-serif), serif', fontSize: '0.9rem', color: 'rgba(255,255,255,0.45)', lineHeight: 1.7, marginBottom: 16 }}>A licensed Virginia real estate agent helping Frederick County and Shenandoah Valley homeowners through every situation — foreclosure, divorce, inherited property, fire damage, and everything in between. Five options. Honest advice. No pressure.</p>
               <p style={{ fontFamily: 'var(--font-source-serif), serif', fontStyle: 'italic', fontSize: '0.78rem', color: 'rgba(255,255,255,0.25)', lineHeight: 1.6 }}>Licensed Real Estate Agent · Pearson Smith Realty · Virginia. Equal Housing Opportunity.</p>
             </div>
             {[
-              { heading: 'Quick Links', links: [
-                { label: 'Sell in Winchester', href: '/sell-my-house-fast-winchester-va' },
-                { label: 'Sell in Stephens City', href: '/sell-my-house-fast-stephens-city-va' },
-                { label: 'Sell in Front Royal', href: '/sell-my-house-fast-front-royal-va' },
-                { label: 'Facing Foreclosure', href: '/sell-house-foreclosure-winchester-va' },
-                { label: 'Inherited Property', href: '/sell-inherited-house-winchester-va' },
-                { label: 'Frederick County', href: '/sell-my-house-fast-frederick-county-va' },
+              { heading: 'Cities We Serve', links: ALL_CITY_HUBS },
+              { heading: 'Common Situations', links: [
+                { label: 'Facing Foreclosure', href: getSituationHref('foreclosure', city) },
+                { label: 'Divorce or Separation', href: getSituationHref('divorce', city) },
+                { label: 'Probate / Estate Sale', href: getSituationHref('probate', city) },
+                { label: 'Inherited Property', href: getSituationHref('inherited', city) },
+                { label: 'Tax Liens', href: getSituationHref('tax-lien', city) },
+                { label: 'Behind on Payments', href: getSituationHref('behind-payments', city) },
+                { label: 'Financial Hardship', href: getSituationHref('financial-hardship', city) },
+                { label: 'Code Violations', href: getSituationHref('code-violations', city) },
+                { label: 'Tired Landlord', href: getSituationHref('tired-landlord', city) },
+                { label: 'PCS / Military Move', href: getSituationHref('pcs', city) },
+                { label: 'Fire-Damaged House', href: getSituationHref('fire-damaged', city) },
+                { label: 'Mold Issues', href: getSituationHref('mold', city) },
+                { label: 'Vacant Property', href: getSituationHref('vacant', city) },
+                { label: 'Relocating', href: getSituationHref('relocating', city) },
+                { label: 'We Buy Houses', href: getSituationHref('we-buy', city) },
+                { label: 'We Buy Houses — Overview', href: '/we-buy-houses-companies-virginia-legit' },
+              ]},
+              { heading: 'Guides & FAQs', links: [
+                { label: 'How Long Does Foreclosure Take?', href: '/how-long-does-foreclosure-take-virginia' },
+                { label: 'Can I Sell Before Foreclosure?', href: '/can-i-sell-before-foreclosure-virginia' },
+                { label: 'Behind on Mortgage Options', href: '/behind-on-mortgage-virginia-options' },
+                { label: 'Who Gets the House in Divorce?', href: '/who-gets-house-divorce-virginia' },
+                { label: 'Selling During Divorce', href: '/selling-house-during-divorce-virginia' },
+                { label: 'Selling a House in Probate', href: '/can-i-sell-house-in-probate-virginia' },
+                { label: 'How Long Probate Takes', href: '/how-long-probate-takes-virginia' },
+                { label: 'Inherited House Taxes', href: '/selling-inherited-house-taxes-virginia' },
+                { label: 'Capital Gains Tax on Sale', href: '/capital-gains-tax-selling-house-virginia' },
+                { label: "Squatters' Rights in Virginia", href: '/squatters-rights-virginia' },
+                { label: 'Can an HOA Foreclose?', href: '/can-hoa-foreclose-virginia' },
+                { label: 'Selling a House With Liens', href: '/selling-house-with-liens-virginia' },
+                { label: 'Selling With Tenants in Place', href: '/sell-house-tenants-virginia' },
+                { label: 'PCS Orders — Selling Your Home', href: '/pcs-sell-house-virginia' },
+                { label: 'Are We-Buy-Houses Companies Legit?', href: '/we-buy-houses-companies-virginia-legit' },
+                { label: 'Cash Buyer vs. Listing Agent', href: '/cash-buyer-vs-listing-agent-virginia' },
+                { label: 'What Is a Cash Offer?', href: '/what-is-a-cash-offer-virginia' },
+                { label: 'Should I Sell to a Cash Buyer?', href: '/should-i-sell-to-cash-buyer-virginia' },
+                { label: 'Fastest Way to Sell a House', href: '/fastest-way-to-sell-house-virginia' },
+                { label: 'How to Sell a House As-Is', href: '/how-to-sell-house-as-is-virginia' },
+                { label: 'Seller Closing Costs', href: '/closing-costs-seller-virginia' },
+                { label: 'Selling With a VA Loan', href: '/selling-house-with-va-loan-virginia' },
+                { label: "Selling a Parent's Home for Care", href: '/selling-parents-home-for-care-virginia' },
+                { label: 'Selling a House in Bad Condition', href: '/sell-house-bad-condition-virginia' },
+                { label: 'Winchester Housing Market 2026', href: '/winchester-virginia-housing-market-2026' },
+                { label: 'Cash Home Buyers in Winchester', href: '/cash-home-buyers-winchester-va' },
+                { label: 'Selling a Rental Property', href: '/sell-rental-property-frederick-county-va' },
               ]},
               { heading: 'Contact', links: [
                 { label: '(571) 989-3269', href: 'tel:+15719893269' },
